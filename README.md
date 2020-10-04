@@ -1,6 +1,6 @@
 ### Hello there 👋
 
-[![Binod's github stats](https://github-readme-stats.vercel.app/api?username=bjungbogati)]
+![Binod's github stats](https://github-readme-stats.vercel.app/api?username=bjungbogati)
 
 - 🔭 I’m working on Data Science Projects
 - 👯 I’m looking to collaborate on Data Analaysis Projects
