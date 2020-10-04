@@ -1,6 +1,6 @@
 ### Hello there 👋
 
-- 🔭 I’m working in Health Data Science
+- 💼 I’m working in Health Data Science
 - 👯 I’m looking to collaborate on Data Science Projects
 - 💬 Ask me about Data Science using R and little bit of :snake: Python.
 - 📫 You can reach me via: [Twitter](https://twitter.com/bjungbogati), [Website](https://bjungbogati.com.np/), [Linkedin](https://www.linkedin.com/in/bjungbogati)
