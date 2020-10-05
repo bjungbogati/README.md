@@ -7,7 +7,7 @@
 
 ---
 
-![Binod's github stats](https://github-readme-stats.vercel.app/api?username=bjungbogati) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bjungbogati)]
+![Binod's github stats](https://github-readme-stats.vercel.app/api?username=bjungbogati)
 
 
 
