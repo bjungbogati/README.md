@@ -3,7 +3,7 @@
 - 💼 I’m working in Health Data Science
 - 👯 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
 - 💬 Ask me about Data Science using R and little bit of :snake: Python.
-- 📫 You can find me on: [<img alt="Twitter" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter] [<img alt="Linkedin" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin] [<img alt="Binod Jung Bogati" width="15px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] [<img alt="Facebook" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
+- 📫 You can find me on: [<img alt="Twitter" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]  [<img alt="Linkedin" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]  [<img alt="Binod Jung Bogati" width="20px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]  [<img alt="Facebook" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
 
 <br>
 
