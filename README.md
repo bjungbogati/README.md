@@ -1,4 +1,4 @@
-## Namaste, I'm Binod Jung Bogati 👋
+## Namaste, I'm Binod Jung Bogati :pray:
 
 - 💼 I’m working in Health Data Science
 - 👯 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
