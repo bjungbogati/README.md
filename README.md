@@ -1,4 +1,4 @@
-## Namaste :pray:, I'm Binod from Kathmandu
+## Namaste :pray: , I'm Binod Jung Bogati
 
 - 💼 I’m currently working in Health Data Science
 - 👯 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
