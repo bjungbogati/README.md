@@ -1,7 +1,7 @@
 ## Namaste :pray: , I'm Binod Jung Bogati
 
 - 💼 I’m currently working in Health Data Science [@NumericMind](https://github.com/Numericmind)
-- 👯 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
+- 🔍 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
 - 💬 Ask me about Data Science using R and little bit of :snake: Python.
 - 😄 Pronouns: Him/His 
 
