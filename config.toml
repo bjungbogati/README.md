@@ -1,8 +1,5 @@
 baseURL = ""
-# [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
-# language code
-languageCode = "en"
+
 title = "Binod Jung Bogati"
 
 # Change the default theme to be use when building the site with Hugo
@@ -160,6 +157,8 @@ enableEmoji = true
     dateFormat = "01-02"
     # amount of RSS pages
     rss = 10
+    
+    author = false
 
 
   # Social config about the author

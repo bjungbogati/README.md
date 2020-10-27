@@ -3,7 +3,14 @@
         <title>Binod Jung Bogati</title>
         <link>/</link>
         <description>Binod Jung Bogati&#39;s Personal Website</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
             <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>MSP Orientation</title>
+    <link>/posts/msp-orientation/</link>
+    <pubDate>Tue, 27 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>/posts/msp-orientation/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
