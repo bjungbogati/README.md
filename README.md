@@ -11,6 +11,7 @@
 
 ![Binod's github stats](https://github-readme-stats.vercel.app/api?username=bjungbogati)
 
+![](https://komarev.com/ghpvc/?username=bjungbogati)
 
 
 [Blog]: https://bjungbogati.com
