@@ -12,7 +12,7 @@ navbar:
     - text: "Home"
       href: "./"
     - text: "Blogs"
-      href: "./posts"
+      href: "./posts.html"
     - text: "Skills"
       href: "./#skills"
     - icon: fa fa-rss
