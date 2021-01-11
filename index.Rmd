@@ -1,3 +1,127 @@
 ---
-site: blogdown:::blogdown_site
+title: "Data Scientist in Nepal"
+description: "Binod is a Lead Data Scientist at Numeric Mind based in Kathmandu, Nepal. He's involved with Clinical Data Science to explore, manipulate & produce reproducible output."
+site: distill::distill_website
+output:
+  distill::distill_article:
+    css: "index.css"
+    mathjax: null
+    highlight: null
+
+# listing: posts
 ---
+
+::: {.row}
+::: {.column .profile .left}
+<img src="binod.jpeg" alt="Binod Jung Bogati"/>
+<div itemprop="name"><h2>Binod Jung Bogati</h2></div>
+::: {.job-title}
+Lead Data Scientist
+:::
+::: {.company}
+Numeric Mind
+:::
+::: {.social-icons}
+<ul>
+<!-- <li> -->
+
+<!-- <a href="/#contact" aria-label="envelope"> <i class="fas fa-envelope -->
+<!-- pro-icon"></i> </a> -->
+
+<!-- </li> -->
+<li>
+<a href="//twitter.com/bjungbogati" target="_blank" rel="nofollow me" aria-label="twitter"> <i class="fab fa-twitter pro-icon"></i> </a>
+</li>
+<li>
+<a href="//github.com/bjungbogati" target="_blank" rel="nofollow me" aria-label="github"> <i class="fab fa-github pro-icon"></i> </a>
+</li>
+<li>
+<a href="//linkedin.com/in/bjungbogati" target="_blank" rel="nofollow me" aria-label="linkedin"> <i class="fab fa-linkedin pro-icon"></i> </a>
+</li>
+<li>
+<a href="//www.instagram.com/bjungbogati" target="_blank" rel="nofollow me" aria-label="instagram"> <i class="fab fa-instagram pro-icon"></i> </a>
+</li>
+</ul>
+:::
+:::
+
+::: {.column .right itemprop="description"}
+<b class="bio">Biography</b>
+
+I'm a Lead Data Scientist at Numeric Mind based in Kathmandu, Nepal. Currently, I'm involved in Clinical Data Science to explore, manipulate and produce reproducible output. My core interest is to solve real world problem using data science. 
+
+I write codes in Python, R & SAS programming. Besides that, I'm also familiar with Microsoft Products like PowerBI, Azure Machine Learning.
+
+For pleasure, I enjoy books 📖, cooking 🍳, music 🎶, travel ✈.
+
+You might want to read my [**Data Science Blogs**](./posts#category:Data_Science).
+
+::: {.column .leftly}
+**Interests**
+
+-   Data Science / Machine Learning
+-   Natural Language Processing
+:::
+
+::: {.column .rightly}
+**Education**
+
+[🎓]{.hat} B.Sc. CSIT, Tribhuvan University
+:::
+:::
+:::
+
+</br></br></br>
+
+::: {.row .skill}
+
+## Skills {.skills}
+
+::: {.column .colskill}
+<i class="fab fa-r-project"></i>
+
+#### R Programming
+
+Apply data science with R using tidyverse, automate business reports, build dashboard with R / Shiny.
+:::
+
+::: {.column .colskill}
+<i class="fas fa-chart-area"></i>
+
+#### Data Visualization
+
+Visualize the data using different tools like ggplot2, matplotlib, seaborn, tableau, PowerBI etc.
+:::
+
+::: {.column .colskill}
+<i class="fab fa-python"></i>
+
+#### Python
+
+Have Python development experience for Data Science projects.
+:::
+
+::: {.column .colskill}
+<i class="fas fa-database"></i>
+
+#### SQL
+
+Have working experience of SQL database like PostgreSQL, Microsoft SQL Server etc.
+:::
+
+::: {.column .colskill}
+<i class="fas fa-tasks"></i>
+
+#### Project Management
+
+Have lead the team members in Data Science projects. Have extensively used GitHub / GitLab for project management.
+:::
+
+::: {.column .colskill}
+<i class="fab fa-docker"></i>
+
+#### Docker
+
+Deployed the Data Science application with Docker along with CI/CD tools.
+:::
+:::

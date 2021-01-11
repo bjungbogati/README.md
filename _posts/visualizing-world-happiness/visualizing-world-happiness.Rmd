@@ -1,0 +1,53 @@
+---
+title: "Visualizing World Happiness"
+description: |
+  A short description of the post.
+author:
+  - name: Binod Jung Bogati
+date: 08-19-2019
+draft: true
+output:
+  distill::distill_article:
+    self_contained: false
+    highlight: null
+
+categories:
+  - visualization
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this article, I’ve covered the visualization of World Happiness Report.
+
+The World Happiness Report 2018 is a survey which has data on global happiness. The report ranks 156 countries by their happiness level.
+
+### The happiest countries in the World
+
+
+### The least happy countries in the World
+
+
+### Heatmap of Happiness Data
+
+### Happiness Bar of South Asian
+
+### Corruption Score of South Asian
+
+### Life Expectancy of South Asian
+
+### Happiness Score vs Region
+
+
+### Economy vs Region
+
+
+### Life Expectancy vs Region
+
+
+### Corruption vs Region
+
+
+Finally, the project code can be found in World Happiness Report at Github.

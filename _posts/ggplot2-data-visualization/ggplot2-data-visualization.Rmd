@@ -1,0 +1,118 @@
+---
+title: "ggplot2-data-visualization"
+description: |
+  A short description of the post.
+author:
+  - name: Binod Jung Bogati
+    url: {}
+date: 01-09-2021
+draft: true
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<h2><img class="aligncenter size-full wp-image-324" src="http://diwashrestha.com/wp-content/uploads/2018/06/Data-Tattoos.jpg" alt="" width="450" height="369" />Introduction</h2>
+We have seen lots of visuals in our life like pictures, animations, and some graphical plots. Graphics help or make easy to get an idea or understand anything. Visualization is an important part of the Data science or Data Analysis. In this blog, we will learn about visualization in  R by creating different type of plots.
+<h2>Lets Start Visualization</h2>
+We will use ggplot2 package which follows the grammar of graphics. Its very powerful tool for visualization and very famous in R community.
+<pre class="theme:github lang:r decode:true">library(ggplot2)</pre>
+<pre class="theme:github lang:default decode:true">#mpg dataset is found in R preloaded
+str(mpg)</pre>
+<pre class="theme:github lang:r decode:true">Classes 'tbl_df', 'tbl' and 'data.frame':	234 obs. of  11 variables:
+ $ manufacturer: chr  "audi" "audi" "audi" "audi" ...
+ $ model       : chr  "a4" "a4" "a4" "a4" ...
+ $ displ       : num  1.8 1.8 2 2 2.8 2.8 3.1 1.8 1.8 2 ...
+ $ year        : int  1999 1999 2008 2008 1999 1999 2008 1999 1999 2008 ...
+ $ cyl         : int  4 4 4 4 6 6 6 4 4 4 ...
+ $ trans       : chr  "auto(l5)" "manual(m5)" "manual(m6)" "auto(av)" ...
+ $ drv         : chr  "f" "f" "f" "f" ...
+ $ cty         : int  18 21 20 21 16 18 18 18 16 20 ...
+ $ hwy         : int  29 29 31 30 26 26 27 26 25 28 ...
+ $ fl          : chr  "p" "p" "p" "p" ...
+ $ class       : chr  "compact" "compact" "compact" "compact" ...</pre>
+From above code, we found out that mpg has 234 rows and 11 columns. We will create different type of visualization using ggplot2 package.
+<h2>Scatterplot</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,colour= cyl))</pre>
+<img class="aligncenter size-full wp-image-337" src="http://diwashrestha.com/wp-content/uploads/2018/06/scatterplot-2.png" alt="" width="653" height="430" />
+
+&nbsp;
+
+A scatterplot uses the value of two variables to plot on the graph. A scatterplot shows the  correlation between two variables in the graph. In this scatterplot, we used color to define the distribution of data using the third variable.
+<h2>Bar Chart</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy,displ))+geom_col(aes(fill=cyl))</pre>
+<img class="aligncenter size-full wp-image-339" src="http://diwashrestha.com/wp-content/uploads/2018/06/barchart.png" alt="" width="653" height="430" />
+
+Barchart uses 2 variable to show its plot using rectangular shape. Barchart height shows the sum of y axis data on basis of the x-axis variable.
+<h2>Count chart</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg)+geom_bar(aes(manufacturer,fill=manufacturer))+  coord_flip()</pre>
+&nbsp;
+
+<img class="aligncenter size-full wp-image-329" src="http://diwashrestha.com/wp-content/uploads/2018/06/countplot-1.png" alt="" width="653" height="430" />The Count chart uses only one variable and plots the presence count of variable.
+<h2>Bubble Chart</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,size=hwy,colour="red",alpha=0.5),show.legend = F)</pre>
+<img class="aligncenter size-full wp-image-335" src="http://diwashrestha.com/wp-content/uploads/2018/06/bubblechart.png" alt="" width="653" height="430" />
+
+The Bubble chart is same as a scatterplot only difference is it uses an extra third variable to show the size of the points.
+<h2>Line Chart</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg,aes(displ,cty))+geom_point()+geom_line()</pre>
+<img class="aligncenter size-full wp-image-340" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart.png" alt="" width="653" height="430" />
+
+The line chart is plot which shows information by connecting series of points with straight lines.In above picture, we can see the line plot.B ut this dataset is not good to plot a time series so we will create a data frame with a random variable and plot another line plot.
+<pre class="theme:github lang:r decode:true">x = sample(1:100, 20, replace=FALSE)
+y = sample(1:100, 20, replace=FALSE)
+
+#combine x and y create a dataframe
+data &lt;- data.frame(x,y)
+ggplot(data,aes(x,y))+geom_point()+geom_line()</pre>
+&nbsp;
+
+<img class="aligncenter size-full wp-image-341" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart2.png" alt="" width="653" height="430" />
+
+In this line chart, we can see the series of the data points connected by the lines.  Time series and finacial analysis use line plots .
+<h3></h3>
+<h2>Pie chart</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg,aes(x=" "))+geom_bar(width=1,aes(fill=drv))+coord_polar("y",start=0)</pre>
+<img class="aligncenter size-full wp-image-343" src="http://diwashrestha.com/wp-content/uploads/2018/06/Piechart.png" alt="" width="653" height="430" />
+
+Piechart got its name as it looks like a pie or round shape. It plots counts of a variable in a circle and it plots to take the whole circle as 100%. A pie chart is not good for multiple variable visualization.
+<h3></h3>
+<h2>Histogram</h2>
+<pre class="theme:github lang:r decode:true">#default value for bins =30
+ggplot(mpg,aes(displ))+geom_histogram(color="orange")</pre>
+<img class="aligncenter size-full wp-image-344" src="http://diwashrestha.com/wp-content/uploads/2018/06/histogram.png" alt="" width="653" height="430" />
+
+Histogram is a rectangular plot which gives us the frequency of the variable by making different ranges. It shows the distribution of a continuous variable. Histogram is different from the bar chart, bar chart relates to Two variables but histogram relates to One variable. Histogram uses the bin that divides the entire range of values into a series of intervals—and then count how many values fall into each interval.Histogram also shows the distribution of the data.
+<h3></h3>
+<h2>Area plot</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7,show.legend = FALSE)+ facet_grid(~drv)</pre>
+<img class="aligncenter size-full wp-image-346" src="http://diwashrestha.com/wp-content/uploads/2018/06/Areaplot.png" alt="" width="653" height="430" />
+
+The only difference between Area and line plot is the area plot is filled with color. Combination of two or more area plot form Stacked area plot.
+<pre class="theme:github lang:r decode:true ">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7)</pre>
+<img class="aligncenter size-full wp-image-347" src="http://diwashrestha.com/wp-content/uploads/2018/06/stackedarea.png" alt="" width="653" height="430" />
+
+&nbsp;
+<h2>Boxplot</h2>
+&nbsp;
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(cyl,cty,fill=cyl))+geom_boxplot()</pre>
+<img class="aligncenter size-full wp-image-348" src="http://diwashrestha.com/wp-content/uploads/2018/06/Boxplot.png" alt="" width="653" height="430" />
+
+Boxplot plots five number summary in single plot ie minimum, first quartile, median, third quartile, and maximum. The box upper and lower side shows third and the first quartile respectively. Middle line in the box shows the median value.  The line above and below the box shows maximum and minimum value and points outside this line are called outliers
+<h3></h3>
+<h2>Density Plot</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy))+geom_density(fill="blue",alpha=0.3)</pre>
+<img class="aligncenter size-full wp-image-350" src="http://diwashrestha.com/wp-content/uploads/2018/06/Density.png" alt="" width="653" height="430" />
+
+Density plot shows the distribution of the data. This plot shows the smooth distribution by smoothing out the noise. The peaks of Density Plot display where values are concentrated over the interval.
+
+These are the few of the many visualization types which are used in Data Analysis or Data Science. I hope it this was helpful for and if you have any query or want to give feedback please use the comment section.
+
+Code for the visualization in this <a href="https://github.com/sdiwash/DiwaShrestha/blob/master/Visualization/Visualization%20in%20R%20with%20ggplot2.R" target="_blank" rel="noopener">Github repo .</a>
+
+&nbsp;

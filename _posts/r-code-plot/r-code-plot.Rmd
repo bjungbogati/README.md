@@ -1,0 +1,94 @@
+---
+title: "Write your first R code"
+description: |
+  A short tutorial to write your first R code
+author:
+  - name: Binod Jung Bogati
+    url: {}
+date: 10-15-2018
+output:
+  distill::distill_article:
+    self_contained: false
+    highlight: null
+    toc: true
+    toc_depth: 4
+    
+categories:
+  - Rstats
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Running code in R is easy (if copy/paste). Our motive here is not to teach you R. However, you'll catch with basic R code in no-time.
+
+- First, make sure you've [installed R and RStudio](https://www.r-nepal.org/install-r-and-rstudio/).
+- Then, search and open **RStudio**.
+- After that, go to File > New File > **R Scripts**.
+- Copy the code below and run it.
+
+Run the code below:
+
+
+```{}
+# printing
+print("Hello World")
+```
+
+```{}
+# assignment
+a &lt;- 10
+b &lt;- 15
+```
+
+```{}
+# add
+a + b
+```
+
+
+```{}
+# add + assign
+c &lt;- a + b
+```
+
+```{}
+# print 1 to 100
+1:10
+```
+
+
+```{}
+# sum from 1 to 100
+sum(1:100)
+```
+
+```{}
+# mean / average
+mean(c(10, 15, 20, 25))
+```
+
+```{}
+# median / central value
+median(c(5, 10, 15, 25, 30))
+```
+
+```{}
+# square root
+sqrt(64)
+```
+
+```{}
+# function
+addition &lt;- function(x, y){
+x + y
+}
+```
+
+```{}
+# calling function
+addition(10, 15)
+```
+

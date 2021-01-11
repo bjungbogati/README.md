@@ -1,0 +1,11 @@
+---
+title: "Data Science Blogs"
+site: distill::distill_website
+listing: posts
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# minify::minify("_site")
+```
+
