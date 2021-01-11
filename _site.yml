@@ -10,9 +10,9 @@ include: ["_redirects", "robots.txt", "favicon.ico"]
 navbar:
   right:
     - text: "Home"
-      href: index.html
+      href: "./"
     - text: "Blogs"
-      href: "./posts.html"
+      href: "./posts"
     - text: "Skills"
       href: "./#skills"
     - icon: fa fa-rss
