@@ -1,7 +1,7 @@
 ---
-title: "Create Distill Blog in R"
+title: "Creating Distill Blog in R"
 description: |
-  This is a tutorial on how you can create a Distill blog in R. Before the end of this article, you'll also learn to build and host your own website/blog using R.
+  This is a tutorial on how you can use Distill to host blog in R. Before the end of this article, you'll also learn to create, build and host your own website/blog using R.
 author:
   - name: Binod Jung Bogati
 date: 01-05-2021
@@ -51,9 +51,9 @@ Distill is based on [Distill web framework](https://distill.pub). It combines th
 
 You can find more detailed about the distill features [here](https://rstudio.github.io/distill).
 
-## Steps to Create Distill Blog 
+## Steps for Creating/Hosting Distill Blog 
 
-You can easily create Distill blog in R using RStudio. 
+You can easily create and host Distill blog in R using RStudio. 
 
 ### 1. Install Distill R Package
 
