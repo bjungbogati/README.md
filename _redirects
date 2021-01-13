@@ -2,4 +2,4 @@ http://bjung.netlify.app/* http://bjungbogati.com.np/:splat 301!
 https://bjung.netlify.app/* https://bjungbogati.com.np/:splat 301!
 http://bjung.netlify.com/* http://bjungbogati.com.np/:splat 301!
 https://bjungbogati.com.np/posts.html https://bjungbogati.com.np/posts/:splat 301!
-https://bjungbogati.com.np/posts/create-distill-blog/ https://bjungbogati.com.np/posts/creating-distill-blog/:splat 301!
+https://bjungbogati.com.np/posts/create-distill-blog/ https://bjungbogati.com.np/posts/creating-distill-blog/ 301!
