@@ -4,7 +4,7 @@ description: |
   A guide on how to install R and RStudio application on Windows, Linux. 
 author:
   - name: Binod Jung Bogati
-date: 10-05-2018
+date: 12-05-2019
 output:
   distill::distill_article:
     self_contained: false

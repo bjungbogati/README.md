@@ -25,10 +25,10 @@
       <media:content url="https://bjungbogati.com.np/posts/data-science-overview/data-driven-world.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Creating Distill Blog in R</title>
+      <title>Create Distill Blog in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/creating-distill-blog</link>
-      <description>&lt;p&gt;This is a tutorial on how you can use Distill to host blog in R. Before the end of this article, you&amp;#39;ll also learn to create, build and host your own website/blog using R.&lt;/p&gt;
+      <description>&lt;p&gt;This is a tutorial on how you can create a Distill blog in R. Before the end of this article, you&amp;#39;ll also learn to build and host your own website/blog using R.&lt;/p&gt;
 </description>
       <category>Distill</category>
       <category>Blog</category>
@@ -49,6 +49,29 @@
       <guid>https://bjungbogati.com.np/posts/nepal-tourism-dashboard</guid>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/nepal-tourism-dashboard/participants-solveathon.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Brief about R programming</title>
+      <dc:creator>Binod Jung Bogati</dc:creator>
+      <link>https://bjungbogati.com.np/posts/r-programming</link>
+      <description>&lt;p&gt;This article is about R programming, it&amp;#39;s importance, who uses it and why it&amp;#39;s popular among statisticians.&lt;/p&gt;
+</description>
+      <category>Rstats</category>
+      <guid>https://bjungbogati.com.np/posts/r-programming</guid>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://bjungbogati.com.np/posts/r-programming/R-programming.png" medium="image" type="image/png" width="746" height="322"/>
+    </item>
+    <item>
+      <title>Install R and RStudio</title>
+      <dc:creator>Binod Jung Bogati</dc:creator>
+      <link>https://bjungbogati.com.np/posts/install-r-rstudio</link>
+      <description>&lt;p&gt;A guide on how to install R and RStudio application on Windows, Linux.&lt;/p&gt;
+</description>
+      <category>Rstats</category>
+      <category>RStudio</category>
+      <guid>https://bjungbogati.com.np/posts/install-r-rstudio</guid>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://bjungbogati.com.np/posts/install-r-rstudio/install-r-rstudio.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Organized Tidyweek Data Analysis Bootcamp</title>
@@ -100,17 +123,6 @@
       <media:content url="https://bjungbogati.com.np/posts/github-satellite-2019/satellite-people.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Brief about R programming</title>
-      <dc:creator>Binod Jung Bogati</dc:creator>
-      <link>https://bjungbogati.com.np/posts/r-programming</link>
-      <description>&lt;p&gt;This article is about R programming, it&amp;#39;s importance, who uses it and why it&amp;#39;s popular among statisticians.&lt;/p&gt;
-</description>
-      <category>Rstats</category>
-      <guid>https://bjungbogati.com.np/posts/r-programming</guid>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
-      <media:content url="https://bjungbogati.com.np/posts/r-programming/R-programming.png" medium="image" type="image/png" width="746" height="322"/>
-    </item>
-    <item>
       <title>Objects in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/r-object-class</link>
@@ -129,18 +141,6 @@
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/r-code-plot</guid>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Install R and RStudio</title>
-      <dc:creator>Binod Jung Bogati</dc:creator>
-      <link>https://bjungbogati.com.np/posts/install-r-rstudio</link>
-      <description>&lt;p&gt;A guide on how to install R and RStudio application on Windows, Linux.&lt;/p&gt;
-</description>
-      <category>Rstats</category>
-      <category>RStudio</category>
-      <guid>https://bjungbogati.com.np/posts/install-r-rstudio</guid>
-      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
-      <media:content url="https://bjungbogati.com.np/posts/install-r-rstudio/install-r-rstudio.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>A Step Towards Data Science</title>
@@ -186,7 +186,7 @@
 </description>
       <category>GitHub</category>
       <guid>https://bjungbogati.com.np/posts/upload-project-in-github</guid>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/upload-project-in-github/create-new-repository-github.png" medium="image" type="image/png" width="938" height="535"/>
     </item>
     <item>

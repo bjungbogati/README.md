@@ -4,7 +4,7 @@ description: |
   This article is about R programming, it's importance, who uses it and why it's popular among statisticians. 
 author:
   - name: Binod Jung Bogati
-date: 12-18-2018
+date: 12-18-2019
 output:
   distill::distill_article:
     self_contained: false

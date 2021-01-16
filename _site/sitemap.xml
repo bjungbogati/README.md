@@ -14,11 +14,19 @@
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/creating-distill-blog/</loc>
-    <lastmod>2021-01-12T21:22:22+05:45</lastmod>
+    <lastmod>2021-01-11T22:46:16+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/nepal-tourism-dashboard/</loc>
     <lastmod>2021-01-12T21:22:34+05:45</lastmod>
+  </url>
+  <url>
+    <loc>https://bjungbogati.com.np/posts/r-programming/</loc>
+    <lastmod>2021-01-16T10:42:13+05:45</lastmod>
+  </url>
+  <url>
+    <loc>https://bjungbogati.com.np/posts/install-r-rstudio/</loc>
+    <lastmod>2021-01-16T10:43:25+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/organized-data-analysis-bootcamp/</loc>
@@ -26,7 +34,7 @@
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/hacktoberfest-kathmandu-2019/</loc>
-    <lastmod>2021-01-12T21:22:27+05:45</lastmod>
+    <lastmod>2021-01-12T21:22:28+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/user-2019-experience/</loc>
@@ -37,10 +45,6 @@
     <lastmod>2021-01-12T21:22:26+05:45</lastmod>
   </url>
   <url>
-    <loc>https://bjungbogati.com.np/posts/r-programming/</loc>
-    <lastmod>2021-01-12T21:22:38+05:45</lastmod>
-  </url>
-  <url>
     <loc>https://bjungbogati.com.np/posts/r-object-class/</loc>
     <lastmod>2021-01-12T21:22:38+05:45</lastmod>
   </url>
@@ -49,16 +53,12 @@
     <lastmod>2021-01-12T21:22:36+05:45</lastmod>
   </url>
   <url>
-    <loc>https://bjungbogati.com.np/posts/install-r-rstudio/</loc>
-    <lastmod>2021-01-12T21:22:28+05:45</lastmod>
-  </url>
-  <url>
     <loc>https://bjungbogati.com.np/posts/towards-data-science/</loc>
     <lastmod>2021-01-12T21:22:41+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/100-days-of-code/</loc>
-    <lastmod>2021-01-12T21:22:18+05:45</lastmod>
+    <lastmod>2021-01-12T21:22:19+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/register-free-com-np/</loc>
@@ -66,11 +66,11 @@
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/upload-project-in-github/</loc>
-    <lastmod>2021-01-12T21:22:41+05:45</lastmod>
+    <lastmod>2021-01-12T21:22:42+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/msp-2017-springboard/</loc>
-    <lastmod>2021-01-12T21:22:31+05:45</lastmod>
+    <lastmod>2021-01-12T21:22:32+05:45</lastmod>
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/github-student-developer-pack-free/</loc>
@@ -78,6 +78,6 @@
   </url>
   <url>
     <loc>https://bjungbogati.com.np/posts/msp-2017-orientation/</loc>
-    <lastmod>2021-01-12T21:22:30+05:45</lastmod>
+    <lastmod>2021-01-12T21:22:31+05:45</lastmod>
   </url>
 </urlset>
