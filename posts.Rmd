@@ -1,12 +1,15 @@
 ---
 title: "Data Science Blogs"
-site: distill::distill_website
+# site: distill::distill_website
 listing: posts
+output:
+  distill::distill_article:
+    includes:
+      after_body: null
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 # minify::minify("_site")
-
 ```
 
