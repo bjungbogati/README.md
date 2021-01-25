@@ -17,19 +17,17 @@
       <title>An Overview of Data Science</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/data-science-overview</link>
-      <description>&lt;p&gt;This article is an overview of data science which explains its need/application, different job roles, and tips on how to pursue a career as a data scientist.&lt;/p&gt;
-</description>
+      <description>This article is an overview of data science which explains its need/application, different job roles, and tips on how to pursue a career as a data scientist.</description>
       <category>Data Science</category>
       <guid>https://bjungbogati.com.np/posts/data-science-overview</guid>
       <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/data-science-overview/data-driven-world.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Creating Distill Blog in R</title>
+      <title>Create Distill Blog in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/creating-distill-blog</link>
-      <description>&lt;p&gt;This is a tutorial on how you can use Distill to host blog in R. Before the end of this article, you&amp;#39;ll also learn to create, build and host your own website/blog using R.&lt;/p&gt;
-</description>
+      <description>This is a tutorial on how you can create a Distill blog in R. Before the end of this article, you'll also learn to build and host your own website/blog using R.</description>
       <category>Distill</category>
       <category>Blog</category>
       <category>Rstats</category>
@@ -41,8 +39,7 @@
       <title>Nepal Tourism Dashboard</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/nepal-tourism-dashboard</link>
-      <description>&lt;p&gt;On Dec 14, our team DataSansar attended Solvathon 2019, a 2 days hackathon for solving problems with data-driven solutions.&lt;/p&gt;
-</description>
+      <description>On Dec 14, our team DataSansar attended Solvathon 2019, a 2 days hackathon for solving problems with data-driven solutions.</description>
       <category>Personal</category>
       <category>Data Science</category>
       <category>Dashboard</category>
@@ -54,8 +51,7 @@
       <title>Brief about R programming</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/r-programming</link>
-      <description>&lt;p&gt;This article is about R programming, it&amp;#39;s importance, who uses it and why it&amp;#39;s popular among statisticians.&lt;/p&gt;
-</description>
+      <description>This article is about R programming, it's importance, who uses it and why it's popular among statisticians.</description>
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/r-programming</guid>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
@@ -65,8 +61,7 @@
       <title>Install R and RStudio</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/install-r-rstudio</link>
-      <description>&lt;p&gt;A guide on how to install R and RStudio application on Windows, Linux.&lt;/p&gt;
-</description>
+      <description>A guide on how to install R and RStudio application on Windows, Linux.</description>
       <category>Rstats</category>
       <category>RStudio</category>
       <guid>https://bjungbogati.com.np/posts/install-r-rstudio</guid>
@@ -77,8 +72,7 @@
       <title>Organized Tidyweek Data Analysis Bootcamp</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/organized-data-analysis-bootcamp</link>
-      <description>&lt;p&gt;R Nepal organized Tidyweek – Data Analysis with R Bootcamp between Sep 20th-23rd, 2019.&lt;/p&gt;
-</description>
+      <description>R Nepal organized Tidyweek – Data Analysis with R Bootcamp between Sep 20th-23rd, 2019.</description>
       <guid>https://bjungbogati.com.np/posts/organized-data-analysis-bootcamp</guid>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/organized-data-analysis-bootcamp/tidyweek-bootcamp.jpg" medium="image" type="image/jpeg"/>
@@ -87,8 +81,7 @@
       <title>Story Behind Hacktoberst Kathmandu 2019</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/hacktoberfest-kathmandu-2019</link>
-      <description>&lt;p&gt;In 2018, I had participated in Hacktoberfest. The learning I got from participation helped me explore more about open-source culture.&lt;/p&gt;
-</description>
+      <description>In 2018, I had participated in Hacktoberfest. The learning I got from participation helped me explore more about open-source culture.</description>
       <category>Personal</category>
       <category>Hacktoberfest</category>
       <guid>https://bjungbogati.com.np/posts/hacktoberfest-kathmandu-2019</guid>
@@ -99,22 +92,20 @@
       <title>My Experience attending useR! 2019</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/user-2019-experience</link>
-      <description>&lt;p&gt;Here, I&amp;#39;m going to tell experience attending useR 2019 who is an undergrad student and travelled all the way from Nepal.&lt;/p&gt;
-</description>
+      <description>Here, I'm going to tell experience attending useR 2019 who is an undergrad student and travelled all the way from Nepal.</description>
       <category>Personal</category>
       <category>Data Science</category>
       <category>Conference</category>
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/user-2019-experience</guid>
-      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/user-2019-experience/useR-conf.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>That Day at GitHub Satellite 2019</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/github-satellite-2019</link>
-      <description>&lt;p&gt;I attended GitHub Satellite 2019 conference held at Kraftwerk, Berlin on May 23. The conference brings together the developers, maintainers, and team leaders who are changing the world through software.&lt;/p&gt;
-</description>
+      <description>I attended GitHub Satellite 2019 conference held at Kraftwerk, Berlin on May 23. The conference brings together the developers, maintainers, and team leaders who are changing the world through software.</description>
       <category>Personal</category>
       <category>GitHub</category>
       <category>Conference</category>
@@ -126,8 +117,7 @@
       <title>Objects in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/r-object-class</link>
-      <description>&lt;p&gt;In this article, you&amp;#39;ll learn about the R Object, its type and attributes.&lt;/p&gt;
-</description>
+      <description>In this article, you'll learn about the R Object, its type and attributes.</description>
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/r-object-class</guid>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
@@ -136,8 +126,7 @@
       <title>Write your first R code</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/r-code-plot</link>
-      <description>&lt;p&gt;A short tutorial to write your first R code&lt;/p&gt;
-</description>
+      <description>A short tutorial to write your first R code</description>
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/r-code-plot</guid>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
@@ -146,8 +135,7 @@
       <title>A Step Towards Data Science</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/towards-data-science</link>
-      <description>&lt;p&gt;I&amp;#39;m quite excited to share this news, that I&amp;#39;ve successfully completed #100DaysOfCode Challenge. Well, I spent 100 days devoting myself to learn Data Science and Machine Learning (with R).&lt;/p&gt;
-</description>
+      <description>I'm quite excited to share this news, that I've successfully completed #100DaysOfCode Challenge. Well, I spent 100 days devoting myself to learn Data Science and Machine Learning (with R).</description>
       <category>Personal</category>
       <category>Data Science</category>
       <guid>https://bjungbogati.com.np/posts/towards-data-science</guid>
@@ -158,8 +146,7 @@
       <title>Starting with #100DaysOfCode</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/100-days-of-code</link>
-      <description>&lt;p&gt;Here&amp;#39;s the story of my coding journey that I stepped in and how I allowed myself to make coding as a habit.&lt;/p&gt;
-</description>
+      <description>Here's the story of my coding journey that I stepped in and how I allowed myself to make coding as a habit.</description>
       <category>Personal</category>
       <category>100 Days of Code</category>
       <guid>https://bjungbogati.com.np/posts/100-days-of-code</guid>
@@ -170,8 +157,7 @@
       <title>How to Register free (.com.np) Nepali Domain</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/register-free-com-np</link>
-      <description>&lt;p&gt;Now you can register to get free Nepali domain .com.np (ccTLDs). The domain validates for lifetime so you don’t have to pay for renewal fees.&lt;/p&gt;
-</description>
+      <description>Now you can register to get free Nepali domain .com.np (ccTLDs). The domain validates for lifetime so you don’t have to pay for renewal fees.</description>
       <category>Personal</category>
       <category>Domain</category>
       <guid>https://bjungbogati.com.np/posts/register-free-com-np</guid>
@@ -182,8 +168,7 @@
       <title>How to Upload Your Project to GitHub</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/upload-project-in-github</link>
-      <description>&lt;p&gt;This tutorial is basically aimed for the users who are learning about uploading their first project (repository) in GitHub via version control tool called Git. It’s obvious that confusion hovers around you when you’re just getting started with Git.&lt;/p&gt;
-</description>
+      <description>This tutorial is basically aimed for the users who are learning about uploading their first project (repository) in GitHub via version control tool called Git. It’s obvious that confusion hovers around you when you’re just getting started with Git.</description>
       <category>GitHub</category>
       <guid>https://bjungbogati.com.np/posts/upload-project-in-github</guid>
       <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
@@ -193,8 +178,7 @@
       <title>MSP 2017 Springboard : A Step towards Success</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/msp-2017-springboard</link>
-      <description>&lt;p&gt;MSP 2017 Springboard was two days (12-13th Aug) event organized by Microsoft Innovation Center Nepal. The event was the full package of 132 MSPs from different colleges in the New Hall at 4th Floor of MICNepal.&lt;/p&gt;
-</description>
+      <description>MSP 2017 Springboard was two days (12-13th Aug) event organized by Microsoft Innovation Center Nepal. The event was the full package of 132 MSPs from different colleges in the New Hall at 4th Floor of MICNepal.</description>
       <category>Personal</category>
       <category>Microsoft</category>
       <guid>https://bjungbogati.com.np/posts/msp-2017-springboard</guid>
@@ -205,8 +189,7 @@
       <title>GitHub Student Developer Pack : Free For Students</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/github-student-developer-pack-free</link>
-      <description>&lt;p&gt;GitHub is now offering its Developer pack free for the students who are intending to learn, share and host their codes online safely.&lt;/p&gt;
-</description>
+      <description>GitHub is now offering its Developer pack free for the students who are intending to learn, share and host their codes online safely.</description>
       <category>GitHub</category>
       <guid>https://bjungbogati.com.np/posts/github-student-developer-pack-free</guid>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
@@ -216,8 +199,7 @@
       <title>MSP Orientation 2017 : A Great Experience with MICNepal</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/msp-2017-orientation</link>
-      <description>&lt;p&gt;The event starts from morning (29 May 2016), when I went for Microsoft Student Partners (MSP) orientation program.&lt;/p&gt;
-</description>
+      <description>The event starts from morning (29 May 2016), when I went for Microsoft Student Partners (MSP) orientation program.</description>
       <category>Personal</category>
       <category>Microsoft</category>
       <guid>https://bjungbogati.com.np/posts/msp-2017-orientation</guid>
