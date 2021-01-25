@@ -43,7 +43,7 @@ output:
     highlight: null
     theme: null
     includes:
-      after_body: utterances.html
+      in_header: utterances.html
 
 
         

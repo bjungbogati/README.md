@@ -1,1 +1,27 @@
-<script>document.addEventListener("DOMContentLoaded",function(){if(/posts/.test(location.pathname)){var t=document.createElement("script");t.src="https://utteranc.es/client.js",t.setAttribute("repo","bjungbogati/bjungbogati"),t.setAttribute("issue-term","og:title"),t.setAttribute("crossorigin","anonymous"),t.setAttribute("label","comment_thread"),new MutationObserver(function(e,n){var o=document.querySelector("d-appendix");o&&(n.disconnect(),o.setAttribute("style","overflow-y: hidden"),o.appendChild(t))}).observe(document.body,{childList:!0})}});</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!/posts/.test(location.pathname)) {
+      return;
+    }
+
+    var script = document.createElement("script");
+    script.src = "https://utteranc.es/client.js";
+    script.setAttribute("repo", "tbjungbogati/bjungbogati");
+    script.setAttribute("issue-term", "og:title");
+    script.setAttribute("crossorigin", "anonymous");
+    script.setAttribute("label", "comment_thread");
+
+    /* wait for article to load, append script to article element */
+    var observer = new MutationObserver(function (mutations, observer) {
+      var article = document.querySelector("d-appendix");
+      if (article) {
+        observer.disconnect();
+        /* HACK: article scroll */
+        article.setAttribute("style", "overflow-y: hidden");
+        article.appendChild(script);
+      }
+    });
+
+    observer.observe(document.body, { childList: true });
+  });
+</script>

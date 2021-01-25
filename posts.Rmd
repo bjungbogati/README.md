@@ -3,9 +3,7 @@ title: "Data Science Blogs"
 # site: distill::distill_website
 listing: posts
 output:
-  distill::distill_article:
-    includes:
-      after_body: null
+  distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
