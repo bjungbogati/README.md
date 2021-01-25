@@ -25,10 +25,10 @@
       <media:content url="https://bjungbogati.com.np/posts/data-science-overview/data-driven-world.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Create Distill Blog in R</title>
+      <title>Creating Distill Blog in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/creating-distill-blog</link>
-      <description>&lt;p&gt;This is a tutorial on how you can create a Distill blog in R. Before the end of this article, you&amp;#39;ll also learn to build and host your own website/blog using R.&lt;/p&gt;
+      <description>&lt;p&gt;This is a tutorial on how you can use Distill to host blog in R. Before the end of this article, you&amp;#39;ll also learn to create, build and host your own website/blog using R.&lt;/p&gt;
 </description>
       <category>Distill</category>
       <category>Blog</category>
@@ -106,7 +106,7 @@
       <category>Conference</category>
       <category>Rstats</category>
       <guid>https://bjungbogati.com.np/posts/user-2019-experience</guid>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
       <media:content url="https://bjungbogati.com.np/posts/user-2019-experience/useR-conf.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
