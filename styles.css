@@ -1,3 +1,23 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons ul {
+   text-decoration: none;
+    list-style:none;
+}
+
+.social-icons li {
+   display: table;
+   float:left;
+   margin: 0px 10px;
+}
+
+.pro-icon {
+    font-size:20px;
+}
+
 d-byline .byline {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
