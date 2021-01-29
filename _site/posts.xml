@@ -24,10 +24,10 @@
       <media:content url="https://bjungbogati.com.np/posts/data-science-overview/data-driven-world.jpeg" medium="image" type="image/jpeg"/>
     </item>
     <item>
-      <title>Create Distill Blog in R</title>
+      <title>Creating Distill Blog in R</title>
       <dc:creator>Binod Jung Bogati</dc:creator>
       <link>https://bjungbogati.com.np/posts/creating-distill-blog</link>
-      <description>This is a tutorial on how you can create a Distill blog in R. Before the end of this article, you'll also learn to build and host your own website/blog using R.</description>
+      <description>This is a tutorial on how you can use Distill to host blog in R. Before the end of this article, you'll also learn to create, build and host your own website/blog using R.</description>
       <category>Distill</category>
       <category>Blog</category>
       <category>Rstats</category>

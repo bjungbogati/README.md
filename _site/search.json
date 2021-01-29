@@ -5,15 +5,15 @@
       "title": "Data Scientist in Nepal",
       "description": "Binod is a Lead Data Scientist at Numeric Mind based in Kathmandu, Nepal. He's involved with Clinical Data Science to explore, manipulate & produce reproducible output.",
       "author": [],
-      "contents": "\n\n\n\n\nBinod Jung Bogati\n\n\n\nLead Data Scientist\n\n\nNumeric Mind\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiography\nI’m a Lead Data Scientist at Numeric Mind based in Kathmandu, Nepal. Currently, I’m involved in Clinical Data Science to explore, manipulate and produce reproducible output. My core interest is to solve real world problem using data science.\nI write codes in Python, R & SAS programming. Besides that, I’m also familiar with Microsoft Products like PowerBI, Azure Machine Learning.\nFor pleasure, I enjoy books 📖, cooking 🍳, music 🎶, travel ✈.\nYou might want to read my Data Science Blogs.\n\nInterests\nData Science / Machine Learning\nNatural Language Processing\n\n\nEducation\n🎓 B.Sc. CSIT, Tribhuvan University\n\n\n\n\nSkills\n\n\nR Programming\nApply data science with R using tidyverse, automate business reports, build dashboard with R / Shiny.\n\n\n\nData Visualization\nVisualize the data using different tools like ggplot2, matplotlib, seaborn, tableau, PowerBI etc.\n\n\n\nPython\nHave Python development experience for Data Science projects.\n\n\n\nSQL\nHave working experience of SQL database like PostgreSQL, Microsoft SQL Server etc.\n\n\n\nProject Management\nHave lead the team members in Data Science projects. Have extensively used GitHub / GitLab for project management.\n\n\n\nDocker\nDeployed the Data Science application with Docker along with CI/CD tools.\n\n",
-      "last_modified": "2021-01-27T14:00:14+05:45"
+      "contents": "Binod Jung BogatiLead Data ScientistNumeric MindBiographyI’m a Lead Data Scientist at Numeric Mind based in Kathmandu, Nepal. Currently, I’m involved in Clinical Data Science to explore, manipulate and produce reproducible output. My core interest is to solve real world problem using data science.I write codes in Python, R & SAS programming. Besides that, I’m also familiar with Microsoft Products like PowerBI, Azure Machine Learning.For pleasure, I enjoy books 📖, cooking 🍳, music 🎶, travel ✈.You might want to read myData Science Blogs.InterestsData Science / Machine LearningNatural Language ProcessingEducation🎓B.Sc. CSIT, Tribhuvan UniversitySkillsR ProgrammingApply data science with R using tidyverse, automate business reports, build dashboard with R / Shiny.Data VisualizationVisualize the data using different tools like ggplot2, matplotlib, seaborn, tableau, PowerBI etc.PythonHave Python development experience for Data Science projects.SQLHave working experience of SQL database like PostgreSQL, Microsoft SQL Server etc.Project ManagementHave lead the team members in Data Science projects. Have extensively used GitHub / GitLab for project management.DockerDeployed the Data Science application with Docker along with CI/CD tools.",
+      "last_modified": "2021-01-29T07:52:35+05:45"
     },
     {
       "path": "posts.html",
       "title": "Data Science Blogs",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-27T14:00:20+05:45"
+      "last_modified": "2021-01-29T07:53:19+05:45"
     }
   ],
   "collections": ["posts/posts.json"]

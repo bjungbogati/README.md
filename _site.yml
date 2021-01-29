@@ -42,8 +42,5 @@ output:
     mathjax: null
     highlight: null
     theme: null
-    # includes:
-    #   after_body: utterances.html
-
-
-        
+    includes:
+      after_body: utterances.html
