@@ -1,6 +1,8 @@
+http://bjungbogati.pages.dev/* https://bjungbogati.com.np/:splat 301!
+https://bjungbogati.pages.dev/* https://bjungbogati.com.np/:splat 301!
+
 http://bjung.netlify.app/* http://bjungbogati.com.np/:splat 301!
 https://bjung.netlify.app/* https://bjungbogati.com.np/:splat 301!
-http://bjung.netlify.com/* http://bjungbogati.com.np/:splat 301!
 https://bjungbogati.com.np/posts.html https://bjungbogati.com.np/posts 301!
 https://bjungbogati.com.np/posts/create-distill-blog/ https://bjungbogati.com.np/posts/creating-distill-blog/ 301!
 https://bjungbogati.com.np/blog/* https://bjungbogati.com.np/:splat 301!
@@ -10,5 +12,4 @@ https://bjungbogati.com.np/register-free-com-np-nepali-domain/ https://bjungboga
 https://bjungbogati.com.np/page/* https://bjungbogati.com.np/:splat 301!
 https://bjungbogati.com.np/page/ https://bjungbogati.com.np/ 301!
 https://bjungbogati.com.np/author/* https://bjungbogati.com.np/:splat 301!
-
 https://bjungbogati.com.np/100-days-of-code/ https://bjungbogati.com.np/posts/100-days-of-code/ 301!
