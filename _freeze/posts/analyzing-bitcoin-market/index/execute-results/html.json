@@ -1,0 +1,14 @@
+{
+  "hash": "d80b5c2acc4762df0256435d1d1ef18e",
+  "result": {
+    "markdown": "---\ntitle: \"Analyzing Bitcoin & Cryptocurrency Market\"\ndescription: |\n  A short description of the post.\nauthor:\n  - name: Binod Jung Bogati\ndate: 12-22-2020\n\ndraft: true\noutput:\n  distill::distill_article:\n    self_contained: false\n---\n\n\n\n\nWith the launch of Bitcoin in 2008, hundreds of similar projects based on blockchain technology have emerged. These crypto-based currencies (or coin) are extremely valuable and have potential to be used as currency in future.\n\nIn 6th December 2017, Bitcoin alone had a market capitalization above $200 Billion.\n\nHow big is the Bitcoin Market compared to others?\n\nBitcoin has heavy competition with other competitors. Still, it’s dominant in market capitalization.\n\nHere, we compare the top 10 coins with their market share.\n\n\nClassifying the crypto-currencies by market size\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

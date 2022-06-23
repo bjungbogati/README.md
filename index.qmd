@@ -1,0 +1,39 @@
+---
+title: "Binod Jung Bogati"
+subtitle: "Statistical Programmer <br> Numeric Mind"
+image: binod.jpeg
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/bjungbogati
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/bjungbogati
+    - icon: github
+      text: GitHub
+      href: https://github.com/bjungbogati
+---
+
+**Biography**
+
+I'm a Statistical Programmer at Numeric Mind based in Kathmandu, Nepal. Currently, I'm involved in Pharma Industry. My core interest is to solve real world problem using data science.
+
+I write codes in Python, R & SAS programming.
+
+For pleasure, I enjoy books 📖, cooking 🍳, music 🎶, travel ✈.
+
+You might want to read my [**Data Science Blogs**](https://bjungbogati.com.np/posts#category:Data_Science).
+
+**Interests**
+
+-   Data Science / Machine Learning
+
+-   Natural Language Processing
+
+**Education**
+
+🎓 B.Sc. CSIT, Tribhuvan University

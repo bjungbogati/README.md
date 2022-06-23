@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.594">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Binod Jung Bogati">
+<meta name="dcterms.date" content="2021-01-09">
+<meta name="description" content="This article is an overview of data science which explains its need/application, different job roles, and tips on how to pursue a career as a data scientist.">
+
+<title>Binod Jung Bogati - An Overview of Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Binod Jung Bogati</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">Blog</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bjungbogati"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">An Overview of Data Science</h1>
+                  <div>
+        <div class="description">
+          <p>This article is an overview of data science which explains its need/application, different job roles, and tips on how to pursue a career as a data scientist.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Data Science</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Binod Jung Bogati </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 9, 2021</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-to-data-science" id="toc-introduction-to-data-science" class="nav-link active" data-scroll-target="#introduction-to-data-science">Introduction to Data Science</a>
+  <ul class="collapse">
+  <li><a href="#foundation-of-data-science" id="toc-foundation-of-data-science" class="nav-link" data-scroll-target="#foundation-of-data-science">Foundation of Data Science</a></li>
+  </ul></li>
+  <li><a href="#why-do-we-need-data-science" id="toc-why-do-we-need-data-science" class="nav-link" data-scroll-target="#why-do-we-need-data-science">Why Do We Need Data Science?</a></li>
+  <li><a href="#applications-of-data-science" id="toc-applications-of-data-science" class="nav-link" data-scroll-target="#applications-of-data-science">Applications of Data Science</a></li>
+  <li><a href="#data-science-roles-in-the-industry" id="toc-data-science-roles-in-the-industry" class="nav-link" data-scroll-target="#data-science-roles-in-the-industry">Data Science Roles in the Industry</a>
+  <ul class="collapse">
+  <li><a href="#data-analyst" id="toc-data-analyst" class="nav-link" data-scroll-target="#data-analyst">1. Data Analyst</a></li>
+  <li><a href="#data-scientist" id="toc-data-scientist" class="nav-link" data-scroll-target="#data-scientist">2. Data Scientist</a></li>
+  <li><a href="#data-engineer" id="toc-data-engineer" class="nav-link" data-scroll-target="#data-engineer">3. Data Engineer</a></li>
+  </ul></li>
+  <li><a href="#how-to-become-a-data-scientist" id="toc-how-to-become-a-data-scientist" class="nav-link" data-scroll-target="#how-to-become-a-data-scientist">How to Become a Data Scientist?</a>
+  <ul class="collapse">
+  <li><a href="#who-is-a-data-scientist" id="toc-who-is-a-data-scientist" class="nav-link" data-scroll-target="#who-is-a-data-scientist">Who is a Data Scientist?</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Data is all around us. From our smartphones to the business world - data is stored and used. And the best part is in its miracle. A data can drive our business, enhance our lives and helps everyone.</p>
+<p><img src="data-driven-world.jpeg" class="img-fluid"></p>
+<p>Embracing the value of data, the world is adopting the data-driven concept. Today, the data are building block for implementing analytics. It helps us furnish strategic vision, also use it to make better and faster decisions.</p>
+<p>In a data-driven world, Data Science is an important skill.</p>
+<p>But, why?</p>
+<p><strong>Let’s look at the Trending Job in the USA.</strong></p>
+<p>According to <a href="https://www.glassdoor.com/List/Best-Jobs-in-America-LST_KQ0,20.htm">Glassdoor</a>, data science is the number one job in America in 2018. To get insights, you might want to watch a short video featuring the importance of data science.</p>
+<blockquote class="blockquote">
+<p>“This hot new field promises to revolutionize industries from business to government, health care to academia.” — The New York Times</p>
+</blockquote>
+<p>So, are you ready to get the century sexiest job? (Yes, of course)</p>
+<p>Before that, you may want to ask - <strong>what, how, why</strong> queries about data science.</p>
+<p>Well, for that part we’ve written a brief article about Data Science. To make it easy to understand, we’ve broken it into following sub-topics.</p>
+<ul>
+<li><a href="#introduction-to-data-science">Introduction to Data Science</a></li>
+<li><a href="#why-do-we-need-data-science">Why Do We Need Data Science?</a></li>
+<li><a href="#applications-of-data-science">Applications of Data Science</a></li>
+<li><a href="#data-science-roles-in-the-industry">Data Science Roles in Data Science</a></li>
+<li><a href="#how-to-become-a-data-scientist">How to become a Data Scientist?</a></li>
+</ul>
+<section id="introduction-to-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-data-science">Introduction to Data Science</h2>
+<p>You might have heard about data science, don’t you? (of course)</p>
+<p>Before introduction about data science, we will go through basic hierarchical model of data.</p>
+<p><img src="data-information-knowledge-insights.png" class="img-fluid"></p>
+<p>Here, we have DIKI pyramid showing relationships between data, information, knowledge, and insights.</p>
+<ul>
+<li><strong>DATA</strong> is an unorganized and raw information. It carries the unprocessed information. — FACTS and FIGURES</li>
+<li><strong>INFORMATION</strong> is a processed data which has purpose and value. — WHO WHAT WHERE and WHEN</li>
+<li><strong>KNOWLEDGE</strong> is an understanding of data via exploring it. — HOW and WHY</li>
+<li><strong>INSIGHT</strong> is an empathy or finding a bigger picture of a scenario. — MEANING</li>
+</ul>
+<p>Let’s suppose you own a restaurant. Now, your target is to maximize the profit. So, you started doing some cool things.</p>
+<ol type="1">
+<li>First, you record the food items you sold. It’s your data.</li>
+<li>With your data, you’ll find numbers of food items sold. It’s an information.</li>
+<li>Doing further analysis, you’ll understand why certain foods are popular. That’s knowledge.</li>
+<li>To increase profit, you’ll deduce least sold food items with the popular one. This’s insight.</li>
+</ol>
+<p>So, we can say that data science is a way of uncovering an insight from the data. When data couples with technology it can solve the complex problems and help in decision making.</p>
+<p><strong>Defining the Data Science</strong></p>
+<p>Data Science is an interdisciplinary field that combines computer science, mathematics, and domain expertise. It has wide applications in business, health, government, social sciences and many other areas.</p>
+<p><img src="data-science-venn-diagram-by-shelly.png" class="img-fluid"></p>
+<section id="foundation-of-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="foundation-of-data-science">Foundation of Data Science</h3>
+<p>So, to turn your data into meaningful insights, you need a data science team. The team who excels in the three foundation skills:</p>
+<ul>
+<li><strong>Domain Expertise</strong> – to define the problem of a particular field.</li>
+<li><strong>Mathematics</strong> – to help the understand complexity and increase the problem-solving capability.</li>
+<li><strong>Computer Science</strong> – to create an environment that efficiently handles data.</li>
+</ul>
+<p>Above all, the data science exists at the intersection of these three foundation skills.</p>
+<section id="domain-expertise" class="level4">
+<h4 class="anchored" data-anchor-id="domain-expertise">1. Domain Expertise</h4>
+<p>The science behind data is about discovery and building knowledge out of it. First, you need to ask the right questions about the problem. Then, generate hypotheses that apply to data. Eventually, you can test the hypothesis with statistical methods.</p>
+<p>Everyone wants to know, what’s going to happen with their sales. Indeed, it’s an obvious question. But, domain experts can ask more specific questions, such as the following:</p>
+<ul>
+<li>What will be our sales next week?</li>
+<li>Can we increase productivity in the marketing department using our sales data?</li>
+<li>Does this product attribute from sales data, contribute to our product sales?</li>
+</ul>
+<p>Certainly, questions first then data.</p>
+</section>
+<section id="mathematics" class="level4">
+<h4 class="anchored" data-anchor-id="mathematics">2. Mathematics</h4>
+<p>In the real world, data science is about applying mathematics. Once you get and clean your data, the next process you do is pull the insight out of it. You need to apply specific math and statistical methods to address complex problems. So, mathematics is important for your data science team.</p>
+<p>Amazingly, Data + Math = Machine Learning</p>
+<p>Not to mention, the best teams often develop machine learning (AI) tools for predictive models. But, you don’t always need them to solve every problem.</p>
+</section>
+<section id="computer-science" class="level4">
+<h4 class="anchored" data-anchor-id="computer-science">3. Computer Science</h4>
+<p>Of course, data science happens within computer systems. The data science team members work with various computing tools (programming). Besides that, your team needs to have specific technical knowledge (data structures and algorithms).</p>
+<p>Your team member might work with Big data, AI (Artificial Intelligence), and Databases. It requires different skill sets and processing tools. Having the right data science work environment is important as having a physical work environment.</p>
+<p>Eventually, we can say that, data science is a team sport. As a result, your data science team needs to incorporate with skillful players. Together your team solves specific challenges and problems. This creates new opportunities and possibilities for a better world.</p>
+</section>
+</section>
+</section>
+<section id="why-do-we-need-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-data-science">Why Do We Need Data Science?</h2>
+<p>Today, data is everywhere. Over the centuries, the world has generated huge amount of data.</p>
+<p>In fact, 80% of data comes from the web in various form. From the social channels to the blogs, images, sounds, and videos.</p>
+<p>Every minute, the world generates yotta bytes of data.</p>
+<p><img src="data-generated-every-second.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>In a case study, <a href="https://www.ibm.com/blogs/insights-on-business/consumer-products/2-5-quintillion-bytes-of-data-created-every-day-how-does-cpg-retail-manage-it/">IBM estimates 90% of the world’s data</a> generated in the past few years. This means every day, the world creates 2.5 quintillion bytes of data.</p>
+</blockquote>
+<p>The amounts of data are so huge that, organizations are struggling to handle it. They need technical experts to extract the powerful insights and make smarter business decisions.</p>
+<p>To address this challenge, Data Science has emerged as hottest professions. Since 2012, the data science exploded in the data analytics industry.</p>
+<blockquote class="blockquote">
+<p>According to LinkedIn’s 2017 Emerging Jobs Report, data scientist job demand has grown over 650% since 2012. It’s the same year that <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century">Harvard Business Review</a> reported it “Sexiest job of the 21st century.”</p>
+</blockquote>
+<p><img src="data-scientist-job-demand.jpg" class="img-fluid"></p>
+<p>As a matter of fact, the demand for data scientists is increasing over a short period.</p>
+<blockquote class="blockquote">
+<p><a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation">McKinsey reported that by 2018</a>, we will see 50% gap in the data scientists supply versus demand. And, the United States alone will experience a shortage of 190,000 skilled data scientists.</p>
+</blockquote>
+<p>Hence, the data science job will continue to grow over the next decade. We think this is the right time to advance your career as data professionals.</p>
+</section>
+<section id="applications-of-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="applications-of-data-science">Applications of Data Science</h2>
+<p>The world generates a huge amount of data. With data, the tech giants like Google, Amazon are making huge profitable business. Following the trend, every industry from business to retail has become data-driven.</p>
+<p>Today, the world needs a mechanism to pull valuable insights out of data. And this mechanism is not other than data science.</p>
+<p><img src="data-science-flower.png" class="img-fluid"></p>
+<p>With advanced technology, data science is becoming more powerful. The application of data science has a wide coverage. Some of the data science applications, we use are given below.</p>
+<p><strong>1. Search Engines</strong></p>
+<p>The most popular data science application is search engines. Daily we use search giants like Google, Yahoo, Bing, Duckduckgo, Ask, etc to search our queries. These searches are optimized with data science algorithms to deliver the best results.</p>
+<p>Every day, Google process 20 petabytes of data. Without data science, we can’t even imagine the Google we see today.</p>
+<p><strong>2. Recommender Systems</strong></p>
+<p>From online shopping to movie watchlist, everywhere we get recommendations. Popular services like Youtube, Netflix, Amazon, Twitter, and Google are popular among us. These services all recommend their product based on search relevance and user preference. The services use search history to recommend a product.</p>
+<p>Hence, the recommendation system makes our life easy.</p>
+<p><strong>3. Fraud Detection and Financial Analysis</strong></p>
+<p>The banks and insurance companies are implementing data science. They use it to forecast claim rates, default rates, and repayment rates.</p>
+<p>Similarly, the authorities monitor the financial market and identify illegal trading activities.</p>
+<p><strong>4. Delivery logistics</strong></p>
+<p>Delivery service has never been so easy. From GrubHub (food) to DHL/FedEx (logistics), everyone is competitive. Their system uses data science to optimize delivery routes, operational costs, and time.</p>
+<p>So, the customers benefit from the fastest delivery with minimal charges.</p>
+<p><strong>5. Healthcare</strong></p>
+<p>Data science transforming health care. With the historical medical data, one can predict more accurately which treatments are effective and which are not.</p>
+<p><strong>6. Disaster risk alert</strong></p>
+<p>Data Science can help us approach to identify, assess, and alert the risks of disaster. We can build models for risk from weather and disaster data (flood, wind damage). These models help us alert and prevent disaster damage from happening.</p>
+<p>Besides that, there are lots of fields like education, natural science, economics that makes use of data science.</p>
+</section>
+<section id="data-science-roles-in-the-industry" class="level2">
+<h2 class="anchored" data-anchor-id="data-science-roles-in-the-industry">Data Science Roles in the Industry</h2>
+<p>In data science, there are three main career paths: data analyst, data scientist, and data engineer.</p>
+<p><img src="data-scientist-vs-data-engineer-vs-data-analyst.png" class="img-fluid"></p>
+<section id="data-analyst" class="level3">
+<h3 class="anchored" data-anchor-id="data-analyst">1. Data Analyst</h3>
+<p>Data analyst plays the role of a junior data scientist. It is an entry level job if you’re planning to start a career in data science.</p>
+<p>Data analyst don’t invent new wheels, rather they use existing tools to solve the problems</p>
+<p><strong>Data Analyst skills:</strong></p>
+<ul>
+<li>Programming (R, Python, SAS)</li>
+<li>Statistics</li>
+<li>Database (SQL)</li>
+<li>Data Wrangling (Pandas, Excel, dplyr)</li>
+<li>Data Visualization (PowerBI, Tableau, matplotlib, ggplot2)</li>
+</ul>
+<p>Besides technical skills, data analyst also need reasoning and communication skills to be successful.</p>
+<p><strong>What does data analyst do?</strong></p>
+<p>Data analyst works under the guidance of data professionals. They do collect, process, summarise, and report the insights of data.</p>
+<p>They make data visualization to make reports and communicate results.</p>
+</section>
+<section id="data-scientist" class="level3">
+<h3 class="anchored" data-anchor-id="data-scientist">2. Data Scientist</h3>
+<p>The data scientist is a senior role of a data analyst. Both data analyst and data scientist share a common goal to extract insights out of data.</p>
+<p>But, the data scientist work on more complex problems. They work with huge data and requires advanced skills as opposed to the data analyst.</p>
+<p><strong>Data Scientist skills :</strong></p>
+<ul>
+<li>Programming (R, Python, SAS)</li>
+<li>Mathematics and Statistics</li>
+<li>Machine Learning</li>
+<li>Big data (Apache Spark, Hive, Hadoop)</li>
+<li>Database (SQL, NoSQL)</li>
+<li>Data visualization (PowerBI, Tableau, Plotly, Matplotlib, ggplot2)</li>
+</ul>
+<p><strong>What does data scientist do?</strong></p>
+<p>Data scientist use data to solve business problems. A data analyst summarises the past, however a data scientist plans for the future. They use data to make strategies to solve various problems.</p>
+<p>They create machine learning models to understand data, recognize patterns, and automate the iterative process.</p>
+</section>
+<section id="data-engineer" class="level3">
+<h3 class="anchored" data-anchor-id="data-engineer">3. Data Engineer</h3>
+<p>Data Engineers builds the data infrastructure for the data-driven organization. They provide a platform to retrieve the data for experiments.</p>
+<p><strong>Data Engineer skills:</strong></p>
+<ul>
+<li>Big data technologies (Hadoop, Spark)</li>
+<li>SQL technologies (MySQL, SQL Server)</li>
+<li>NoSQL technologies (MongoDB)</li>
+<li>Data warehousing solutions</li>
+<li>Cloud (Microsoft Azure, Google Cloud, AWS)</li>
+</ul>
+<p><strong>What does data engineer do?</strong></p>
+<p>Data engineers provide an easy process to extract, transform and load data. They also help data scientist to make scalable data science products.</p>
+<p>They help data scientist to work with big data.</p>
+<p>Data science is a hot and emerging field of technology. The involvement in data science job is rewarding.</p>
+</section>
+</section>
+<section id="how-to-become-a-data-scientist" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-become-a-data-scientist">How to Become a Data Scientist?</h2>
+<p>Who doesn’t dream of getting the century’s sexiest job?</p>
+<p>But, not everyone knows how to get started.</p>
+<p>For now, let’s refresh the highlight of the data science job.</p>
+<blockquote class="blockquote">
+<p>In 2018, Glassdoor has ranked Data science #1 job in the USA. And, data science job comes with a hefty salary ($110,000 per year).</p>
+</blockquote>
+<p>Sounds interesting? (of course)</p>
+<p><img src="what-data-scientist-is-like.png" class="img-fluid"></p>
+<p>Back to topic … So, you want to get your dream job right? (Data Scientist)</p>
+<section id="who-is-a-data-scientist" class="level3">
+<h3 class="anchored" data-anchor-id="who-is-a-data-scientist">Who is a Data Scientist?</h3>
+<p>Moving on, here you’ll get the step-by-step process to get started in data science. This is not the guide but these are few tips for those who aspire to become a data scientist.</p>
+<ul>
+<li>First, get basics of statistics, mathematics and machine learning</li>
+<li>Learn to Program (R, Python, SAS)</li>
+<li>Play with Database (SQL)</li>
+<li>Master data wrangling, visualization and analysis reporting</li>
+<li>Get understanding with Big Data (intermediate)</li>
+<li>Experience, practice and meet fellow data scientists</li>
+<li>Internship, Bootcamp or get a job (really important)</li>
+<li>Follow and engage with the data science community</li>
+</ul>
+<p>Disclaimer: Don’t limit yourself by any means, think out-of-box. You need personal time and commitment to start your career in data science.</p>
+<p>You may want to read my story about <a href="//bjungbogati.com.np/posts/towards-data-science">how I started my journey of data science?</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

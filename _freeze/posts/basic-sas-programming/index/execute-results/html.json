@@ -1,0 +1,14 @@
+{
+  "hash": "a767c7b5cb3bdb8aec1bcd17221e0a8e",
+  "result": {
+    "markdown": "---\ntitle: \"Setup SAS Studio\"\ndescription: |\n  A short description of the post.\nauthor:\n  - name: Binod Jung Bogati\n    url: {}\ndate: 01-19-2021\ndraft: true\noutput:\n  distill::distill_article:\n    self_contained: false\n---\n\n\n\n\n\n## SAS Installation\n\nFirst, we need to install SAS. There're two version currently available for free.\n\n\n1. Download SAS University Edition:\nhttps://www.sas.com/en_us/software/university-edition/download-software.html#linux\n\n2. SAS Ondemand Academy\n\nhttps://welcome.oda.sas.com/login\n\n\n## \n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

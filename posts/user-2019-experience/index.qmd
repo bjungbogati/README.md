@@ -1,0 +1,220 @@
+---
+title: "My Experience attending useR! 2019"
+description: |
+  Here, I'm going to tell experience attending useR 2019 who is an undergrad student and travelled all the way from Nepal.
+author:
+  - name: Binod Jung Bogati
+date: 08-03-2019
+
+execute: 
+  echo: false
+image: useR-conf.jpg
+
+categories:
+  
+  - Personal
+  - Data Science
+  - Conference
+  - Rstats
+---
+
+On the month of July, I attended the useR 2019 held at Toulouse, France
+
+useR 2019 is an annual conference which brings R users, scientist, developers and communities together at one place.
+
+### At Toulouse
+
+On 7th July, I landed around 5:00 PM on Toulouse Blagnac Airport, France. It was a sunny and hot day.
+
+My hotel was near the useR 2019 conference hall. I had two option to take the metro (long) or shuttle bus (short). I took the short one.
+
+![](toulouse-airport.jpg)
+
+It took me around 15 mins to Compans Caffarelli (Subway station). Then, I went straight to my hotel for check-in and get some food.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148070884164493313")
+```
+
+![](toulouse-hotel.jpg)
+
+At my hotel, it was great to find people who speak English. They're from India, USA, France and we introduced ourself. I enjoyed talking with them but I missed to take a photo with them.
+
+### Tidyverse Developer Day
+
+Next day, I went for Tidyverse Developer Day 2019 at the congress centre "Pierre Baudis", the same venue as of useR 2019.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148135686459088898")
+```
+
+At Tidyverse Dev Day, I chose to work on the issue of the dplyr package. Unfortunately, I had to update the R version and re-install all necessary packages. It took me at least 2-3 hours to get it done. Finally, I managed to send my first pull request in dplyr and it got merged too.
+
+![](pull-request-dplyr-.png)
+
+### Newbie Sessions
+
+At the evening, I joined the newbie sessions which had various talks and session.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/UseR2019_Conf/status/1146040368535953409")
+```
+
+There was motivating talk like **The R Ecosystem** by David Smith, Cloud Advocate for Microsoft.
+
+{r echo=FALSE} tweetrmd::tweet_embed("https://twitter.com/maxheld/status/1148268443101290496")
+
+Also, R-Ladies Global talk, how they managed to expand their local chapters to 159 cities starting right from 2016 useR conference.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148277600894275584")
+```
+
+### Tutorials: Day 1
+
+It was a day for tutorials and attendees went for the tutorials they registered before.
+
+I attended for Package development tutorials by Hadley Wickham, Jenny Brian, and Jim Hester.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148532937601802240")
+```
+
+Right after the tutorials, I even managed to talk with Hadley Wickham (Chief Scientist at RStudio) about RStudio Education and future prospective.
+
+![](with-hadley-wicham.jpg)
+
+Then, I met with Erin Ledell (R-Ladies Co-founder) and Joseph Richter(RStudio). I introduced them about R community Nepal and they told how the global community can help us grow.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/Shel_Kariuki/status/1148615412936007681")
+```
+
+After the lunch break, it was time for the tutorial. I went for the Docker for Data Science by Tobias Verbeke (Managing Director at Open Analytics).
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148575048397131776")
+```
+
+After the 2nd tutorial, I met with the people including representatives of R Africa.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/Shel_Kariuki/status/1148613451922759681")
+```
+
+### Welcome Reception
+
+At the evening (5 PM), we headed for the welcome reception at Capitole: City Hall of Toulouse. We reached the place after 10 mins walk from the conference hall.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148818691875844097")
+
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148863683050790913")
+```
+
+### Start of useR 2019 talks -- Day 2
+
+The conference started with the beautiful music full of peace and kindness by Ali Alaoui & Moultaqa Salam.
+
+![](conference-hall-people.jpg)
+
+After sponsors talk of R-Consortium, it was time for Keynote talk.
+
+Julia Stewart Lowndes (Marine Data Scientist at NCEAS) gave a keynote on **R for Data Science in Less time**. She shared her story of how she used the R ecosystem at her work and it inspired me a lot.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148865019075026945")
+```
+
+> First, I met her at Tidyverse Dev Day, we're at the same table. She was looking at my laptop stickers and asked me if I can help her make [Xaringan work offline](https://github.com/jules32/useR-2019-keynote/blob/gh-pages/index.Rmd) and I agreed to help her. Then, I realized she was a keynote speaker for the next day.
+
+After Julia's keynote talk, we had a coffee break. Then, I joined the Enhancements to data tidying by Hadley Wickham, n() things about dplyr by Romain Francois and golem package for shiny app development for production by Vincent Guyader and followed various talks that day.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1148927992573431808")
+```
+
+During the break, Angela introduced me to Christopher, who is the lead organizer of useR2020 and we talked for a while. And attended a few more talks.
+
+![](angela-christopher.jpg)
+
+### Gala Dinner
+
+After the conference, we're ready for the most awaited Gala Dinner at Cité l'espace.
+
+![](with-colin-gepsy-kevin.jpg)
+
+We were all waiting for the bus for Cité l'espace which is Europeans premier astronomy and space science culture centre. It is a unique and lively place for sharing space adventures.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149189076538535936")
+```
+
+### Community talks: Day 3
+
+Next day started with **Joe Cheng**'s (co-founder of RStudio) keynote on **Shiny Holygrails** which focuses on interactivity and reproducibility. I happened to talk with him a day before, who is well known in the community for his Shiny package.
+
+After some break, I went mostly for community talk. Since I also had a lightning talk i.e building active community (in Nepal).
+
+
+Also, I'm pleased to hear Shel giving talk about [AfricaR](https://africa-r.org/). It was filled with motivating, clear vision & determination.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/UseR2019_Conf/status/1149259123051106305")
+```
+
+I also enjoyed the panel discussion: The truth about satRdays. Personally, I did talk with them about their experience of hosting satRdays. I got motivated to organize, satRday Kathmandu soon. I enjoyed the keynote talk of Martin Morgan, core contributor of Bioconductor.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149319789795561472")
+```
+
+Not to miss result of ThinkR quiz.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149320267275145216")
+```
+
+### Flash Poster Session
+
+Next for the evening, was the flash poster session. It was fun-filled because everyone had 30 sec to speak and some people missed theirs.
+
+```{r echo=F}
+tweetrmd::tweet_embed("https://twitter.com/jaynal83/status/1149312901267755009")
+```
+
+I had nice time talking with Heather Turner, R-Foundation member and Shel representing AfricaR.
+
+![](with-heather-turner.jpg)
+
+There were lots of posters from industries, researchers and PhD candidates from different universities.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149357316501889032")
+```
+
+At evening, I managed time to see the sunset view from Toulouse, riverside.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149584950506602497")
+```
+
+I amazed to see pink building and know fact that Toulouse is called Pink City.
+
+![](toulouse-reddish-pink-building.jpg)
+
+While heading back for dinner, I clicked the night view of Capitole de Toulouse.
+
+```{r}
+tweetrmd::tweet_embed("https://twitter.com/bjungbogati/status/1149580315603587072")
+```
+
+Since five days, I have been eating raw veg (food) and soup with weird taste. I couldn't resist going to Indian restaurant for Veg Thali (South Asian Dish).
+
+![](veg-thali-toulouse.jpg)
+
+### Last Day at useR 2019 -- Day 4
+
+On the day 4th, I only attended a few talks because I need to catch a train for Paris. No worry, all the talks were recorded along with their slides. I really missed the last day's R community meetings, keynotes, and crazy people.
+
+![](time-to-return-paris.jpg)

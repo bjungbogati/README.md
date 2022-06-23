@@ -1,0 +1,75 @@
+---
+title: "How to Register free (.com.np) Nepali Domain"
+description: |
+ Now you can register to get free Nepali domain .com.np (ccTLDs). The domain validates for lifetime so you don’t have to pay for renewal fees.
+author:
+  - name: Binod Jung Bogati
+date: 11-11-2016
+
+execute: 
+  echo: false
+ 
+image: Nepali-domain-com-np-registration.png
+
+categories:
+  - Personal
+  - Domain
+---
+
+This is a bonus, if you are planning to start new a blog or website. It doesn't matter if its about yourself, because it will at least save your domain cost. (.com domain costs Rs 1000 + per year)
+
+**Benefits of Registering .np Domain**
+
+1.  Ranks in Google.com.np (Local Search)
+2.  Email Under Your Name
+3.  Personal Branding
+4.  Lifetime Validity
+
+### Registration process for Nepali (.np) domain
+
+1.  First visit ![Mercantile Website](register.mos.com.np) and check domain for availability.
+
+![](nepali-domain-registration.png)
+
+> Based on first come first serve and eligibility, registration of .com.np, .org.np, .ceo.np and many other Country Code Top Level Domains (ccTLDs) is possible
+
+2.  Drag that site to the basket and Register with your details.
+
+![](Nepali-domain-com-np-registration.png)
+
+3.  After Clicking on Register, your request will be proceed.
+
+> Your Request has been initialized. Please Check Email for Further Process
+
+4.  Check your Email and you will get a email from " Hostmaster -- NPccTLD Registration Services ".
+
+> Dear Bjung,
+>
+> Thank you for registering. NP domain registration service is provided by Mercantile Communications completely free of charge. Your requested domain is currently inactive. You will need to submit a few documents in order to activate the domain. Please click on the link given at the bottom of this email and upload the necessary documents as stated below ...
+
+5.  Now go to the referred link in your email which look like :
+
+> Please click on the link below to proceed further.By clicking the link below, you certify that you have read, fully understand and accept all terms and conditions of NP ccTLD. register.mos.com.np/users/confirms/\*\*\*
+
+6.  Submit your personal details.
+
+![](nepali-domain-request.png)
+
+7.  Login with your username and password.
+
+![](login-to-mercantile-website.png)
+
+8.  Submit the following details according to your specification and click on submit after entering your details.
+
+9.  For Individual & Company \| Organization
+
+![](domain-admin-contacts.png)
+
+10. Then, Upload the scanned copy of :
+
+-   Nepali citizenship certificate (Personal usage) or,
+-   Application letter (Official usage)
+
+![](upload-government-issued-citizenship-passport-driving-license.png)
+
+Finally, after few days Mercantile staff will process your data. You will get your .com.np domain, once they approve your free domain request.

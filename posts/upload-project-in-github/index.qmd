@@ -1,0 +1,106 @@
+---
+title: "How to Upload Your Project to GitHub"
+description: |
+  This tutorial is basically aimed for the users who are learning about uploading their first project (repository) in GitHub via version control tool called Git. It’s obvious that confusion hovers around you when you’re just getting started with Git.
+author:
+  - name: Binod Jung Bogati
+date: 11-02-2016
+
+execute: 
+  echo: false
+image: create-new-repository-github.png
+
+categories:
+  - GitHub
+---
+
+> Git is a version control system aimed to handle project at speed, data integrity, and support for distributed, non-linear workflows.
+
+I'm assuming that you already had worked with your project locally. Let's say you are currently working with Javascript project with HTML, CSS and js file in your project folder.
+
+-   First, you need to make sure that you'd installed Git -- Fast Version Control
+-   Then, log in to your GitHub account and create a new repository.
+
+![](create-new-repository-github.png)
+
+In the following screen, you can copy it down where you need it if you click the button (right side of the screen) to "clone in desktop".
+
+-   From here you run the following commands to "connect" your existing project to your repo on GitHub. (This is assuming that you created your repo on GitHub and it is currently empty)
+
+-   Go to your local project folder then Right click \> Git Bash Here (Open Git in Console Mode). Now, you need to follow the following steps.
+
+1.  Initialize Git
+
+```
+ git init
+```
+
+> This will start monitoring your changes (logs in .git folder)
+
+2.  Add files and folders
+
+
+```
+git add .
+```
+
+> . \[dot\] will add all your files & folders
+
+![](git-bash-command.png)
+
+3.  Commit Changes
+
+```
+ git commit -m "This is my initial commit"
+```
+
+> This will records changes to the repository
+
+4.  Add Remote Origin
+
+```
+git remote add origin https://github.com/bjungbogati/my-project-url.git
+```
+
+
+> creates a new remote called origin located at my-project-url
+
+5.  See Linked Repo
+
+```
+git remote -v
+```
+
+> see your linked repository
+
+```
+ git status
+```
+
+> checks the current state of the repository (optional)
+
+6.  Push Changes to GitHub
+
+```
+git push -u origin master
+```
+
+> -u is short version of --update
+
+> push the commits in the local branch named master to the remote named origin (GitHub)
+
+![](github-login.png)
+
+Note: You'll also be requested to sign in to GitHub account.
+
+### What we did so far?
+
+```
+git init 
+git add . 
+git commit -m "This is my initial commit" 
+git remote add origin https://github.com/username/url.git 
+git push -u origin master
+```
+
+

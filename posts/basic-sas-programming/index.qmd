@@ -1,0 +1,22 @@
+---
+title: "Setup SAS Studio"
+description: |
+  A short description of the post.
+author:
+  - name: Binod Jung Bogati
+    url: {}
+date: 01-19-2021
+draft: true
+---
+
+## SAS Installation
+
+First, we need to install SAS. There're two version currently available for free.
+
+1.  Download SAS University Edition: https://www.sas.com/en_us/software/university-edition/download-software.html#linux
+
+2.  SAS Ondemand Academy
+
+https://welcome.oda.sas.com/login
+
+## 

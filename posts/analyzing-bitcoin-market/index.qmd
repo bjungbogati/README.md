@@ -1,0 +1,21 @@
+---
+title: "Analyzing Bitcoin & Cryptocurrency Market"
+description: |
+  A short description of the post.
+author:
+  - name: Binod Jung Bogati
+date: 12-22-2020
+draft: true
+---
+
+With the launch of Bitcoin in 2008, hundreds of similar projects based on blockchain technology have emerged. These crypto-based currencies (or coin) are extremely valuable and have potential to be used as currency in future.
+
+In 6th December 2017, Bitcoin alone had a market capitalization above \$200 Billion.
+
+How big is the Bitcoin Market compared to others?
+
+Bitcoin has heavy competition with other competitors. Still, it's dominant in market capitalization.
+
+Here, we compare the top 10 coins with their market share.
+
+Classifying the crypto-currencies by market size

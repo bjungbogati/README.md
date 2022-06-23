@@ -1,0 +1,19 @@
+---
+title: "How to Run R in Google Colab"
+description: |
+  Now, you can run R in Google Collab which runs remotely in Google's server.
+author:
+  - name: Binod Jung Bogati
+   
+date: 07-03-2021
+
+image: colabR.jpg
+---
+
+Here, you can create a Jupyter notebook with R in Google colab by using following link:
+
+1.  Full URL: https://colab.research.google.com/#create=true&language=r,
+
+2.  Short URL: https://colab.to/r
+
+Colab notebooks execute code on Google's cloud servers which means you can utilize the computation power of Google hardware. With Google Colab, you can even get access to GPUs and TPUs, which is extensively used in Machine Learning and Deep Learning.

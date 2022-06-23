@@ -1,0 +1,24 @@
+---
+title: "Organized Tidyweek Data Analysis Bootcamp"
+description: |
+  R Nepal organized Tidyweek – Data Analysis with R Bootcamp between Sep 20th-23rd, 2019.
+author:
+  - name: Binod Jung Bogati
+date: 11-28-2019
+
+execute: 
+  echo: false
+image: tidyweek-bootcamp.jpg
+---
+
+R Nepal organized Tidyweek -- Data Analysis with R Bootcamp between Sep 20th-23rd,
+
+The participants were from various backgrounds (health, business, academia) and came from outside Kathmandu valley as well.
+
+The data analysis Bootcamp provided participants with a session of Data Analysis process:
+
+-   Basics of R
+-   Import Data / Tidying
+-   Data Transformation
+-   Visualization
+-   Communication/ Report

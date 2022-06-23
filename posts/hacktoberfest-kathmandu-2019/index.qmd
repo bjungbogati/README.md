@@ -1,0 +1,41 @@
+---
+title: "Story Behind Hacktoberst Kathmandu 2019"
+description: |
+  In 2018, I had participated in Hacktoberfest. The learning I got from participation helped me explore more about open-source culture.
+author:
+  - name: Binod Jung Bogati
+date: 10-24-2019
+
+execute: 
+  echo: false
+image: hacktoberfest.jpeg
+
+categories:
+  - Personal
+  - Hacktoberfest
+---
+
+
+
+library(tweetrmd)
+
+
+> Hacktoberfest is a worldwide celebration of open source software and is open for everyone! It is all about encouraging meaningful contributions to the open source ecosystem, for beginners and veterans alike.
+
+In 2018, I started with a pull-request (hunting) in documentation part. I was glad that some of them got merged as well.
+
+Finally, I also got some swags from Hacktoberfest.
+
+{r eval=FALSE, include=FALSE}
+tweet_embed("https://twitter.com/bjungbogati/status/1086225680306704384")
+
+
+### Motivation
+
+Participating in Hacktoberfest motivated me to host a meetup in Kathmandu.
+
+So, we made a project made a project hacktm.js.org, where participants can learn sending the pull requests.
+
+{r eval=FALSE, include=FALSE}
+tweet_embed("https://twitter.com/DataSansar/status/1186284925399359488")
+

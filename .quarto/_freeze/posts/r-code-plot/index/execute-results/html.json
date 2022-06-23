@@ -1,0 +1,14 @@
+{
+  "hash": "1d378acfe9b89034f880bd7fda25b1d9",
+  "result": {
+    "markdown": "---\ntitle: \"Write your first R code\"\ndescription: |\n  A short tutorial to write your first R code\nauthor:\n  - name: Binod Jung Bogati\n    url: {}\ndate: 10-15-2018\n\n\n\nexecute: \n  echo: false\n    \ncategories:\n  - Rstats\n---\n\n\nRunning code in R is easy (if copy/paste). Our motive here is not to teach you R. However, you'll catch with basic R code in no-time.\n\n-   First, make sure you've [installed R and RStudio](https://www.r-nepal.org/install-r-and-rstudio/).\n-   Then, search and open **RStudio**.\n-   After that, go to File \\> New File \\> **R Scripts**.\n-   Copy the code below and run it.\n\nRun the code below:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# printing \nprint(\"Hello World\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"Hello World\"\n```\n:::\n\n```{.r .cell-code}\n#assignment \n a <- 10 \n b <- 15\n\n#add \n a + b\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 25\n```\n:::\n\n```{.r .cell-code}\n#add + assign \n  c <- a + b\n\n# print 1 to 100 \n  1:10\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n:::\n\n```{.r .cell-code}\n# sum from 1 to 100 \nsum(1:100)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 5050\n```\n:::\n\n```{.r .cell-code}\n# mean / average \nmean(c(10, 15, 20, 25))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 17.5\n```\n:::\n\n```{.r .cell-code}\n# median / central value \nmedian(c(5, 10, 15, 25, 30))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 15\n```\n:::\n\n```{.r .cell-code}\n# square root \nsqrt(64)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 8\n```\n:::\n\n```{.r .cell-code}\n# function \naddition <- function(x, y){ x + y }\n\n# calling function \naddition(10, 15)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 25\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.594">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Binod Jung Bogati – index</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Binod Jung Bogati</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">Blog</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bjungbogati"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+<h2 class="anchored">
+<img class="aligncenter size-full wp-image-324" src="http://diwashrestha.com/wp-content/uploads/2018/06/Data-Tattoos.jpg" alt="" width="450" height="369">Introduction
+</h2>
+We have seen lots of visuals in our life like pictures, animations, and some graphical plots. Graphics help or make easy to get an idea or understand anything. Visualization is an important part of the Data science or Data Analysis. In this blog, we will learn about visualization in&nbsp; R by creating different type of plots.
+<h2 class="anchored">
+Lets Start Visualization
+</h2>
+We will use ggplot2 package which follows the grammar&nbsp;of graphics. Its&nbsp;very powerful tool for visualization and very famous in R community.
+<pre class="theme:github lang:r decode:true">library(ggplot2)</pre>
+<pre class="theme:github lang:default decode:true">#mpg dataset is found in R preloaded
+str(mpg)</pre>
+<pre class="theme:github lang:r decode:true">Classes 'tbl_df', 'tbl' and 'data.frame':  234 obs. of  11 variables:
+ $ manufacturer: chr  "audi" "audi" "audi" "audi" ...
+ $ model       : chr  "a4" "a4" "a4" "a4" ...
+ $ displ       : num  1.8 1.8 2 2 2.8 2.8 3.1 1.8 1.8 2 ...
+ $ year        : int  1999 1999 2008 2008 1999 1999 2008 1999 1999 2008 ...
+ $ cyl         : int  4 4 4 4 6 6 6 4 4 4 ...
+ $ trans       : chr  "auto(l5)" "manual(m5)" "manual(m6)" "auto(av)" ...
+ $ drv         : chr  "f" "f" "f" "f" ...
+ $ cty         : int  18 21 20 21 16 18 18 18 16 20 ...
+ $ hwy         : int  29 29 31 30 26 26 27 26 25 28 ...
+ $ fl          : chr  "p" "p" "p" "p" ...
+ $ class       : chr  "compact" "compact" "compact" "compact" ...</pre>
+From above code, we found out that mpg has 234 rows and 11 columns. We will create different type of visualization using ggplot2 package.
+<h2 class="anchored">
+Scatterplot
+</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,colour= cyl))</pre>
+<p><img class="aligncenter size-full wp-image-337" src="http://diwashrestha.com/wp-content/uploads/2018/06/scatterplot-2.png" alt="" width="653" height="430"></p>
+<p>&nbsp;</p>
+A scatterplot uses the value of two variables to plot on the graph.&nbsp;A scatterplot shows the&nbsp; correlation between two variables in the graph. In this scatterplot, we used color to define the distribution of data using the third variable.
+<h2 class="anchored">
+Bar Chart
+</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy,displ))+geom_col(aes(fill=cyl))</pre>
+<p><img class="aligncenter size-full wp-image-339" src="http://diwashrestha.com/wp-content/uploads/2018/06/barchart.png" alt="" width="653" height="430"></p>
+Barchart uses 2 variable to show its plot using rectangular shape. Barchart height shows the sum of y axis data on basis of the x-axis variable.
+<h2 class="anchored">
+Count chart
+</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg)+geom_bar(aes(manufacturer,fill=manufacturer))+  coord_flip()</pre>
+<p>&nbsp;</p>
+<img class="aligncenter size-full wp-image-329" src="http://diwashrestha.com/wp-content/uploads/2018/06/countplot-1.png" alt="" width="653" height="430">The Count chart uses only one variable and plots the presence count of variable.
+<h2 class="anchored">
+Bubble Chart
+</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,size=hwy,colour="red",alpha=0.5),show.legend = F)</pre>
+<p><img class="aligncenter size-full wp-image-335" src="http://diwashrestha.com/wp-content/uploads/2018/06/bubblechart.png" alt="" width="653" height="430"></p>
+The Bubble chart is same as a scatterplot only difference is it uses an extra third variable to show the size of the points.
+<h2 class="anchored">
+Line Chart
+</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg,aes(displ,cty))+geom_point()+geom_line()</pre>
+<p><img class="aligncenter size-full wp-image-340" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart.png" alt="" width="653" height="430"></p>
+The line chart is plot which shows information by connecting series of points with straight lines.In above picture, we can see the line plot.B ut this dataset is not good to plot a time series so we will create a data frame with a random variable and plot another line plot.
+<pre class="theme:github lang:r decode:true">x = sample(1:100, 20, replace=FALSE)
+y = sample(1:100, 20, replace=FALSE)
+
+#combine x and y create a dataframe
+data &lt;- data.frame(x,y)
+ggplot(data,aes(x,y))+geom_point()+geom_line()</pre>
+<p>&nbsp;</p>
+<p><img class="aligncenter size-full wp-image-341" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart2.png" alt="" width="653" height="430"></p>
+In this line chart, we can see the series of the data points connected by the lines.&nbsp; Time series and finacial analysis use line plots .
+<h3 class="anchored">
+</h3>
+<h2 class="anchored">
+Pie chart
+</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg,aes(x=" "))+geom_bar(width=1,aes(fill=drv))+coord_polar("y",start=0)</pre>
+<p><img class="aligncenter size-full wp-image-343" src="http://diwashrestha.com/wp-content/uploads/2018/06/Piechart.png" alt="" width="653" height="430"></p>
+Piechart got its name as it looks like a pie or round shape. It plots counts of a variable in a circle and it plots to take the whole circle as 100%. A pie chart is not good for multiple variable visualization.
+<h3 class="anchored">
+</h3>
+<h2 class="anchored">
+Histogram
+</h2>
+<pre class="theme:github lang:r decode:true">#default value for bins =30
+ggplot(mpg,aes(displ))+geom_histogram(color="orange")</pre>
+<p><img class="aligncenter size-full wp-image-344" src="http://diwashrestha.com/wp-content/uploads/2018/06/histogram.png" alt="" width="653" height="430"></p>
+Histogram is a rectangular&nbsp;plot which gives us the frequency of the variable&nbsp;by making different ranges. It shows the distribution of a continuous&nbsp;variable. Histogram is different from the bar chart, bar chart&nbsp;relates to Two variables but histogram relates to One variable. Histogram uses the bin that divides the entire range of values into a series of intervals—and then count how many values fall into each interval.Histogram&nbsp;also shows the distribution of the data.
+<h3 class="anchored">
+</h3>
+<h2 class="anchored">
+Area plot
+</h2>
+<pre class="theme:github lang:r decode:true">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7,show.legend = FALSE)+ facet_grid(~drv)</pre>
+<p><img class="aligncenter size-full wp-image-346" src="http://diwashrestha.com/wp-content/uploads/2018/06/Areaplot.png" alt="" width="653" height="430"></p>
+The only difference between Area and line plot is the area plot is filled with color. Combination of two or more area plot form Stacked area plot.
+<pre class="theme:github lang:r decode:true ">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7)</pre>
+<p><img class="aligncenter size-full wp-image-347" src="http://diwashrestha.com/wp-content/uploads/2018/06/stackedarea.png" alt="" width="653" height="430"></p>
+&nbsp;
+<h2 class="anchored">
+Boxplot
+</h2>
+&nbsp;
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(cyl,cty,fill=cyl))+geom_boxplot()</pre>
+<p><img class="aligncenter size-full wp-image-348" src="http://diwashrestha.com/wp-content/uploads/2018/06/Boxplot.png" alt="" width="653" height="430"></p>
+Boxplot plots five number summary in single plot ie&nbsp;minimum, first quartile, median, third quartile, and maximum. The&nbsp;box upper and lower side shows third and the first quartile respectively. Middle line in the box shows the median value.&nbsp; The line above and below the box shows maximum and minimum value and points outside this line&nbsp;are called outliers
+<h3 class="anchored">
+</h3>
+<h2 class="anchored">
+Density Plot
+</h2>
+<pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy))+geom_density(fill="blue",alpha=0.3)</pre>
+<p><img class="aligncenter size-full wp-image-350" src="http://diwashrestha.com/wp-content/uploads/2018/06/Density.png" alt="" width="653" height="430"></p>
+<p>Density plot shows the distribution of the data. This plot shows the smooth distribution&nbsp;by smoothing out the noise.&nbsp;The peaks of Density Plot display where values are concentrated over the interval.</p>
+<p>These are the few of the many visualization types which are used in Data Analysis or Data Science. I hope it this was helpful for and if you have any query or want to give feedback please use the comment section.</p>
+<p>Code for the visualization in this&nbsp;<a href="https://github.com/sdiwash/DiwaShrestha/blob/master/Visualization/Visualization%20in%20R%20with%20ggplot2.R" target="_blank" rel="noopener">Github repo .</a></p>
+<p>&nbsp;</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,74 @@
+---
+title: "GitHub Student Developer Pack : Free For Students"
+description: |
+ GitHub is now offering its Developer pack free for the students who are intending to learn, share and host their codes online safely. 
+author:
+  - name: Binod Jung Bogati
+date: 06-28-2016
+
+execute: 
+  echo: false
+image: Github-Student-Developer-Pack-Free.png
+
+categories:
+  - GitHub
+---
+
+
+
+
+
+GitHub Student Developer Pack includes the best developer tools for free or include includes credit with discount offers.
+
+![](Github-Student-Developer-Pack-Free.png)
+
+## How Can Students Benefit from GitHub ?
+
+GitHub has been a Social Network for programmers and home to millions of open source projects ranging from private to open source products. A student can learn by sharing their ideas and working collaborating with their team members. Some of the basic features of Github Student Developer Pack are given below :
+
+### 1. Easy Code Sharing
+
+Don't you think sharing codes via email or flash drives are pretty oldsome. With GitHub, you can easily share your codes online among friends or teacher easily.
+
+### 2. Enhance Team Work
+
+Your code always will be available online and you can collaborate works with your team on GitHub. All the code changes, merge history will be available and you can easily revert the changes.
+
+### 3. Host Private Repository
+
+You can host unlimited public repository apart from this student developer pack offers free access to micro accounts where you can get access to unlimited private repository (worth $7/month)
+
+### 4. Organized Environment
+
+GitHub Repository is a one-stop place for all your online project. Discuss the code changes using Pull Requests. Organize your team and your goals using Milestones.
+
+### 5. Build Online Portfolio
+
+With the public repositories, you can build portfolio of projects and show them to emplyoees which will let you get hired. Github vividly showcase what your are skills and experiences ?
+
+## How to get GitHub Student Devloper Pack?
+
+1. First login to your GitHub account. (Sign up for new account if you don't have one)
+
+2. After successful login, visit [student developer pack offer](https://education.github.com/pack).
+
+3. Now request a discount with your name , school-issued email address (eg: binod@myschool.edu).
+
+If you dont have access to school or university issued email then select I dont have a school-issued email.
+
+![](Github-Student-Discount-Request.png)
+
+4. Now you have to upload following :
+
+a.  Valid Scanned Copy of Student ID Card
+
+b.  Academic transcript, or other proof of affiliation.
+
+Please make sure dates are visible, verifying your status as a current student.
+
+5. Now fill out your school name, graduation year and your opinions about how you want to use github ?
+
+6. Submit your request and after that you will get the notification saying
+
+> Hey , we have some awesome news
+> We've upgraded you to a Micro plan, which will be free for the next two years. After that, you'll get an email saying that your coupon is expiring. You can reapply for another coupon if you still have academic status. We don't have any collaboration limits, so any group projects you may encounter can be hosted via your account.

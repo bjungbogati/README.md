@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/r-google-colab/index.html",
+      "/posts/data-science-overview/index.html",
+      "/posts/creating-distill-blog/index.html",
+      "/posts/nepal-tourism-dashboard/index.html",
+      "/posts/r-programming/index.html",
+      "/posts/install-r-rstudio/index.html",
+      "/posts/organized-data-analysis-bootcamp/index.html",
+      "/posts/hacktoberfest-kathmandu-2019/index.html",
+      "/posts/user-2019-experience/index.html",
+      "/posts/github-satellite-2019/index.html",
+      "/posts/r-object-class/index.html",
+      "/posts/r-code-terminal/index.html",
+      "/posts/towards-data-science/index.html",
+      "/posts/100-days-of-code/index.html",
+      "/posts/register-free-com-np/index.html",
+      "/posts/upload-project-in-github/index.html",
+      "/posts/msp-2017-springboard/index.html",
+      "/posts/github-student-developer-pack-free/index.html",
+      "/posts/msp-2017-orientation/index.html"
+    ]
+  }
+]

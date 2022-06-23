@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.594">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Binod Jung Bogati – index</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Binod Jung Bogati</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">Blog</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bjungbogati"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+In this blog, I will use some machine learning concept with help of ScikitLearn a Machine Learning Package and Iris dataset which can be loaded from sklearn&nbsp;. I will use numpy to work on the Iris dataset and Matplotlib for Visualization. Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper.The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis. The data set consists of 50 samples from each of three species of Iris:
+<ul>
+<li>
+Iris setosa
+</li>
+<li>
+Iris virginica
+</li>
+<li>
+Iris versicolor
+</li>
+</ul>
+<p><img class=" wp-image-90 aligncenter" src="http://diwashrestha.com/wp-content/uploads/2017/09/images.jpg" alt="" width="501" height="187"></p>
+Four features were measured from each sample:
+<ol>
+<li>
+Sepal length(cm)
+</li>
+<li>
+Sepal Width(cm)
+</li>
+<li>
+Petal Length(cm)
+</li>
+<li>
+Petal Width(cm)
+</li>
+</ol>
+<p><img class="aligncenter" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3aH4Q3AplfE1MR3ROAp9Ok35fafmNT59ddXkdEvNdMkT8X6E" alt="Image result for iris flower data set" width="367" height="339"></p>
+<p>Iris datasets are the basic&nbsp;Machine Learning data. The objective of this post is to find the species of Iris flower of test data using the trained model. I am using the Sklearn python package’s Decision tree.</p>
+&nbsp;
+<h3 class="anchored">
+Import Library and module
+</h3>
+<p>First, I will import required library and module in the python console. In this machine learning we will use:</p>
+<p>Numpy: which provides support for&nbsp;more efficient numerical computation</p>
+<p>Pandas: a convenient library that&nbsp;supports data frames.</p>
+<p>Matplotlib &nbsp;&amp;Seaborne: for Visualization</p>
+ScikitLearn: Machine learning tools
+<pre class="lang:python decode:true">import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+from sklearn import tree
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.externals import joblib</pre>
+&nbsp;
+<h3 class="anchored">
+Load Iris data
+</h3>
+Now, we will load the iris data from the seaborne’s builtin dataset &nbsp;and print first 5 rows as follow:
+<pre class="lang:python decode:true">iris = sns.load_dataset("iris")
+print(iris.head())
+
+#   sepal_length  sepal_width  petal_length  petal_width species
+#0           5.1          3.5           1.4          0.2  setosa
+#1           4.9          3.0           1.4          0.2  setosa
+#2           4.7          3.2           1.3          0.2  setosa
+#3           4.6          3.1           1.5          0.2  setosa
+#4           5.0          3.6           1.4          0.2  setosa</pre>
+Lets look at the data
+<pre class="lang:python decode:true">print (iris.shape)
+
+#(150, 5)</pre>
+We have 150 samples and 5 features, including our target feature. We can easily print some summary statistics.
+<pre class="lang:python decode:true">print(iris.describe())
+
+#       sepal_length  sepal_width  petal_length  petal_width
+#count    150.000000   150.000000    150.000000   150.000000
+#mean       5.843333     3.057333      3.758000     1.199333
+#std        0.828066     0.435866      1.765298     0.762238
+#min        4.300000     2.000000      1.000000     0.100000
+#25%        5.100000     2.800000      1.600000     0.300000
+#50%        5.800000     3.000000      4.350000     1.300000
+#75%        6.400000     3.300000      5.100000     1.800000
+#max        7.900000     4.400000      6.900000     2.500000</pre>
+The list of the features are :
+<ul>
+<li>
+sepal length
+</li>
+<li>
+sepal width
+</li>
+<li>
+petal length
+</li>
+<li>
+petal width
+</li>
+</ul>
+<h3 class="anchored">
+Split data into training and test sets
+</h3>
+<p>I &nbsp;split the data into training and test sets at the beginning of modeling workflow.Splitting&nbsp;is crucial&nbsp;for getting a realistic estimate of model’s performance.</p>
+First, let’s separate our target (y) features&nbsp;from our input&nbsp;(X) features:
+<pre class="lang:python decode:true">y = iris.species
+X = iris.drop('species',axis=1)</pre>
+Now i use the Scikit learn <strong>train_test_split</strong> function:
+<pre class="lang:python decode:true">from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, 
+                                                    test_size=0.3, 
+                                                    random_state=100, 
+                                                    stratify=y)</pre>
+I’ll set aside 30% of the data as a test set for evaluating the model. I also set an arbitrary “random state” &nbsp;so that program can reproduce our results.
+<h3 class="anchored">
+Visualization
+</h3>
+Now I will plot graph to understand the features and the species in data.I am using seaborne and matplotlib to make these graph plots :
+<pre class="lang:python decode:true ">sns.set(style="ticks")
+iris = sns.load_dataset("iris")
+sns.pairplot(iris, hue="species",palette="bright")
+plt.show()</pre>
+<p><img class=" wp-image-94 aligncenter" src="http://diwashrestha.com/wp-content/uploads/2017/09/iris-e1505720689808.png" alt="" width="517" height="464"></p>
+<p>The above graph is scatterplot which is plotted between four features of iris in 12 different plots. In the above picture, we can see the samples formed clusters according to their species.</p>
+In next graph, i will plot the 4 features of 3 iris species in barplot:
+<pre class="lang:python decode:true">piris = pd.melt(iris, "species", var_name="measurement") sns.factorplot(x="measurement", y="value", hue="species", data=piris, size=7, kind="bar",palette="bright") plt.show() 
+print(piris.head())
+
+#  species   measurement  value
+#0  setosa  sepal_length    5.1
+#1  setosa  sepal_length    4.9
+#2  setosa  sepal_length    4.7
+#3  setosa  sepal_length    4.6
+#4  setosa  sepal_length    5.0</pre>
+<p><img class="wp-image-96 aligncenter" src="http://diwashrestha.com/wp-content/uploads/2017/09/plot.png" alt="" width="541" height="466"></p>
+In above code, I made new variable piris to make the visualization easier. This picture shows how three species of iris differ on basis of the four features.
+<h3 class="anchored">
+Decision tree
+</h3>
+Decision tree algorithm is simple supervised learning algorithm which is used in regression and classification problems. I will make &nbsp;Decision Tree classifier and fit training data (X_train and y_train) to train the model.
+<pre class="lang:python decode:true">clf = tree.DecisionTreeClassifier()
+clf.fit(X_train,y_train)
+
+#DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+#            max_features=None, max_leaf_nodes=None,
+#            min_impurity_split=1e-07, min_samples_leaf=1,
+#            min_samples_split=2, min_weight_fraction_leaf=0.0,
+#            presort=False, random_state=None, splitter='best')</pre>
+<p>&nbsp;</p>
+After fitting the training data the Decision_tree classifier makes a tree using which classifier will classify the species of test data. The Decision Tree can be created as below:
+<pre class="lang:python decode:true ">from sklearn.datasets import load_iris
+iris=load_iris()
+tree.export_graphviz(clf,
+out_file='iris.dot',  feature_names=iris.feature_names,  
+                         class_names=iris.target_names,  
+                         filled=True, rounded=True,  
+                         special_characters=True)</pre>
+<p>I am using the graphviz and dot module to create a dot file which can be visualized using graphviz application. The tree I got is below: <a href="http://diwashrestha.com/wp-content/uploads/2017/09/Decesiontree.png"><img class="aligncenter size-full wp-image-114" src="http://diwashrestha.com/wp-content/uploads/2017/09/123.png" alt="" width="899" height="1053"></a></p>
+Using above tree the classifier will classify our test data. Remember the above tree is formed by the classifier using the training data.
+<h3 class="anchored">
+Prediction
+</h3>
+It is time for the prediction about species of the testing data and it is the test of our model.
+<pre class="lang:python decode:true ">y_pred = (clf.predict(X_test))</pre>
+I passed the X_test data to model get the prediction from our model and saved prediction as y_pred.
+<h3 class="anchored">
+Accuracy check
+</h3>
+<pre class="lang:python decode:true">print ('Accuracy Score');
+print (accuracy_score(y_test, y_pred)* 100);
+
+#Accuracy Score
+#95.5555555556</pre>
+My model got accuracy Score of 95.5556 out of 100.
+<h3 class="anchored">
+Save the model
+</h3>
+It is time to save the model for future use and complete the task.
+<pre class="lang:python decode:true ">joblib.dump(clf, 'iris.pkl')
+#['iris.pkl']
+
+</pre>
+I can load this .pkl file as below:
+<pre class="lang:python decode:true">clf2 = joblib.load('iris.pkl')
+clf2.predict(X_test)</pre>
+<p>After loading the model I can use to predict the data as in above section.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

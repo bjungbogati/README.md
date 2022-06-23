@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.594">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Binod Jung Bogati">
+<meta name="dcterms.date" content="2019-12-20">
+<meta name="description" content="On Dec 14, our team DataSansar attended Solvathon 2019, a 2 days hackathon for solving problems with data-driven solutions.">
+
+<title>Binod Jung Bogati - Nepal Tourism Dashboard</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="../../site_libs/twitter-widget-0.0.1/widgets.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Binod Jung Bogati</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">Blog</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bjungbogati"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Nepal Tourism Dashboard</h1>
+                  <div>
+        <div class="description">
+          <p>On Dec 14, our team DataSansar attended Solvathon 2019, a 2 days hackathon for solving problems with data-driven solutions.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Personal</div>
+                <div class="quarto-category">Data Science</div>
+                <div class="quarto-category">Dashboard</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Binod Jung Bogati </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 20, 2019</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<p><a href="https://dataliteracy.github.io/solveathon/">Solve-a-thon</a> 2019 was a two-day, the first of its kind, was organized by the World Bank and The Asia Foundation with support from UKAID at the Kathmandu University School of Management on 14-15 December.</p>
+</blockquote>
+<p>The agenda behind the Nepal Solvathon 2019 were:</p>
+<ul>
+<li><p>Find data-driven solutions to issues facing our society today.</p></li>
+<li><p>Collaborate, contribute, and share data skills with the community while working on data projects.</p></li>
+<li><p>Contribute to an emerging open data community in Nepal.</p></li>
+</ul>
+<p>We had 3 people on the DataSansar team i.e Diwash Shrestha, Prakriti Dhungana and Binod Jung Bogati (me).</p>
+<p><strong>Day 1: Starts with Problem Statement</strong></p>
+<p>There was some pre-defined problem in Solvathon. Our team had decided to work in the tourism sector since we applied.</p>
+<p>Also, <a href="https://visitnepal2020.com/">Visit Nepal 2020</a> was approaching, so our team planned to work on the Nepal Tourism Dashboard project. Our project was developed for helping Nepal Government for decision-making looking at the statistical data published by the Nepal Tourism Board.</p>
+<div class="cell">
+<div class="cell-output-display">
+<blockquote class="twitter-tweet blockquote" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">The by-product of Nepal Tourism Dashboard made by <a href="https://twitter.com/diwastha?ref_src=twsrc%5Etfw">@diwastha</a>. <a href="https://twitter.com/hashtag/solvathon2019?src=hash&amp;ref_src=twsrc%5Etfw">#solvathon2019</a> <a href="https://twitter.com/hashtag/data4nepal?src=hash&amp;ref_src=twsrc%5Etfw">#data4nepal</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/Vq2PoDfadu">pic.twitter.com/Vq2PoDfadu</a></p>— Binod Jung Bogati (@bjungbogati) <a href="https://twitter.com/bjungbogati/status/1205856779675979777?ref_src=twsrc%5Etfw">December 14, 2019</a></blockquote>
+
+</div>
+</div>
+<p><strong>Day 2: Building a Dashboard with R</strong></p>
+<p>On day two, we build the prototype using R + Flexdashboard. We integrated different visualization tools like plotly, highcharter.</p>
+<div class="cell">
+<div class="cell-output-display">
+<blockquote class="twitter-tweet blockquote" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">We <a href="https://twitter.com/DataSansar?ref_src=twsrc%5Etfw">@datasansar</a> team built Nepal Tourism Dashboard at <a href="https://twitter.com/hashtag/solvathon2019?src=hash&amp;ref_src=twsrc%5Etfw">#solvathon2019</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/DFIDNepal?ref_src=twsrc%5Etfw">@DFIDNepal</a> <a href="https://twitter.com/worldbankdata?ref_src=twsrc%5Etfw">@worldbankdata</a> <a href="https://twitter.com/RaviNepal?ref_src=twsrc%5Etfw">@RaviNepal</a> <a href="https://twitter.com/bjungbogati?ref_src=twsrc%5Etfw">@bjungbogati</a>  <a href="https://twitter.com/prakriti50?ref_src=twsrc%5Etfw">@prakriti50</a> <a href="https://twitter.com/rugnepal?ref_src=twsrc%5Etfw">@rugnepal</a> <a href="https://twitter.com/hashtag/VisitNepal2020?src=hash&amp;ref_src=twsrc%5Etfw">#VisitNepal2020</a> <a href="https://twitter.com/hashtag/Nepal?src=hash&amp;ref_src=twsrc%5Etfw">#Nepal</a> <a href="https://twitter.com/hashtag/hackathon?src=hash&amp;ref_src=twsrc%5Etfw">#hackathon</a> <br><br>Demo Link: <a href="https://t.co/LJbayKZNdF">https://t.co/LJbayKZNdF</a> <a href="https://t.co/QtdTKIKi06">pic.twitter.com/QtdTKIKi06</a></p>— Diwash Shrestha 🇳🇵 👨🏽‍💻 (@diwastha) <a href="https://twitter.com/diwastha/status/1206166565432938497?ref_src=twsrc%5Etfw">December 15, 2019</a></blockquote>
+
+</div>
+</div>
+<p><strong>Closing</strong></p>
+<p>We pitched our idea at the front and let know what we developed in two days.</p>
+<div class="cell">
+<div class="cell-output-display">
+<blockquote class="twitter-tweet blockquote" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Participants at pitching their <a href="https://twitter.com/hashtag/opendata?src=hash&amp;ref_src=twsrc%5Etfw">#opendata</a> products at the closing of the first of its kind <a href="https://twitter.com/hashtag/solveathon2019?src=hash&amp;ref_src=twsrc%5Etfw">#solveathon2019</a>. <a href="https://twitter.com/hashtag/data4nepal?src=hash&amp;ref_src=twsrc%5Etfw">#data4nepal</a> <a href="https://t.co/ydahK3B4Zx">pic.twitter.com/ydahK3B4Zx</a></p>— Liza Maharjan (she/her) (@maharjan_liza) <a href="https://twitter.com/maharjan_liza/status/1206140144635404288?ref_src=twsrc%5Etfw">December 15, 2019</a></blockquote>
+
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

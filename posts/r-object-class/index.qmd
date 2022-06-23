@@ -1,0 +1,120 @@
+---
+title: "Objects in R"
+description: |
+  In this article, you'll learn about the R Object, its type and attributes.
+author:
+  - name: Binod Jung Bogati
+    url: {}
+date: 11-09-2018
+
+execute: 
+  echo: false
+    
+categories:
+  - Rstats
+---
+
+{r setup, echo=F}
+knitr::opts_chunk$set(warning = FALSE)
+
+
+## R object
+
+Object in R is a data structure which is created to hold the data or value in it. R object has names, content, attributes. Everything we see or create in R is an object. They are:
+
+- Character
+- Numeric (Real Numbers)
+- Integer (Whole Numbers)
+- Complex
+- Logical (True / False)
+
+R provides many functions to examine the attributes of objects :
+
+- class() - what kind of object is it.
+- dim()- Dimension of the (row,columns)
+- length()- the length of the object.
+
+**Create Object**
+
+Objects are created by assigning a value using arrow operator <- or assignment operator =.
+
+{}
+a <- c(1,2,3) # create a object
+class(a) # class of object
+dim(a) # dimension of object
+length(a) # length of object
+
+
+In the above code, we create a vector object using c() function which is for the vector. We will learn about a vector in another blog. The class() function gives the class of object. dim() is for the dimension of the object. The length() gives the length of the object or number of content in the object.
+
+We will learn about the class of objects in R. we will create objects with only one value for simplicity.
+
+
+### Character
+
+Objects with string value has Character class. We can convert any objects to character values using as.character().
+
+{}
+chadata <- 'Computer is a device.' # create object with string
+chadata # print the object      
+class(chadata) # class of object
+
+
+
+### Numeric
+
+Objects with decimal value have numeric class. It is the default computational data type.
+
+{}
+numdata <- 23.5 #create object
+numdata #print object
+
+class(numdata) # class of object
+
+
+### Integer
+
+Integer in R is the whole number. To create Integer, we use L after the value or invoke as.integer function.
+
+{}
+intdata <- as.integer(10)
+intdatum <- 20L # create objects
+
+intdata # print 
+intdatum # print object
+
+class(intdata)
+class(intdatum) # class of object
+
+
+### Complex
+
+A complex value is pure imaginary value i.
+
+{}
+imgdata <- 4i # create object
+
+imgdata # print object
+
+class(imgdata) # class of object
+
+
+
+### Logical
+
+Objects with TRUE or FALSE value is a logical class object.
+
+{}
+x <- 1
+y <- 0
+logidata <- x + y # create object
+
+logidata #print object
+class(logidata) # class of object
+
+
+**Key Points**
+
+- R’s basic class of object are character, numeric, integer, complex, and logical.
+- Objects may have attributes like name, dimension, class, length.
+</ul>

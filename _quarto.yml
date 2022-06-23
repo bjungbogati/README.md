@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Binod Jung Bogati"
+  navbar:
+    right:
+      - posts.qmd
+      - icon: github
+        href: https://github.com/bjungbogati
+      - icon: twitter
+        href: https://twitter.com/bjungbogati
+format:
+  html:
+    theme: cosmos
+    css: styles.css
+
+editor: visual
+
