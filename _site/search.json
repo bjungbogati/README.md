@@ -359,35 +359,35 @@
   {
     "objectID": "posts/create-quarto-blog/index.html",
     "href": "posts/create-quarto-blog/index.html",
-    "title": "Create Quarto Blog",
+    "title": "Create a Quarto Blog",
     "section": "",
     "text": "In this blog, you will learn about Quarto, it’s features and step-by-step process to create a blog for you."
   },
   {
     "objectID": "posts/create-quarto-blog/index.html#what-is-quarto",
     "href": "posts/create-quarto-blog/index.html#what-is-quarto",
-    "title": "Create Quarto Blog",
+    "title": "Create a Quarto Blog",
     "section": "What is Quarto?",
     "text": "What is Quarto?\nQuarto is an open source scientific and technical publishing system built-on pandoc."
   },
   {
     "objectID": "posts/create-quarto-blog/index.html#initial-setups",
     "href": "posts/create-quarto-blog/index.html#initial-setups",
-    "title": "Create Quarto Blog",
+    "title": "Create a Quarto Blog",
     "section": "1. Initial Setups",
     "text": "1. Initial Setups\nYou may follow the steps provided here, if you’re beginner or R user.\n\na. Install R and RStudio\nFirst of all, please make sure you’ve installed R and RStudio. The latest version of RStudio supports Quarto docs and visual markdown editor.\n\n\n\nR for Windows\nDownload Link\n\n\nRStudio for Windows\nDownload Link\n\n\n\n\n\n\nb. Install Quarto CLI from Website\nFor next step, you need to download and install quarto from website.\n\nYou can use Quarto CLI regardless of R and RStudio. However, if you’re a beginner or R user, we recommend you to do so."
   },
   {
     "objectID": "posts/create-quarto-blog/index.html#create-quarto-blog-with-rstudio",
     "href": "posts/create-quarto-blog/index.html#create-quarto-blog-with-rstudio",
-    "title": "Create Quarto Blog",
+    "title": "Create a Quarto Blog",
     "section": "2. Create Quarto Blog with RStudio",
     "text": "2. Create Quarto Blog with RStudio\nRStudio support for quarto documents is awesome. With visual markdown editor, it was super easy to create this blog.\n\na. Install Quarto Package\nQuarto package helps you create quarto website or blog pages in RStudio with ease.\nYou can install quarto package with following steps:\n\nFirst, click on Packages tab\nThen, in text box type quarto\nClick on Install button\n\n\n\n\nb. Create a New Project\nOn your right-top, click on Project and further on New Project.\n\n\n\nc. Create a New Directory\nNow, you have three options to choose. Since, this is your new quarto project, you can choose New Directory.\n\n\n\nd. Select a Quarto Blog\nFurther, you can click on Quarto blog since you’re creating a blog.\n\n\n\ne. Create a Quarto Blog\nNow, it’s time for you to create quarto blog.\n\nFirst, enter name of your blog (eg: myblog). This will create new folder with name of your blog.\nThen, select location for your blog to save in your local system. It can be your documents.\nPlease, check ✓ use visual markdown editor\nAnd, click on create project.\n\n\n\n\nf. Quarto Blog Render\nNow you can type name of your blog which will be shown in home page.\nThen click on render to preview your blog.\n\n\n\ng. Preview of your blog\nOnce, render completes then you’ll see preview of your blog. This is how your blog looks in your local system."
   },
   {
     "objectID": "posts/create-quarto-blog/index.html#host-a-quarto-blog",
     "href": "posts/create-quarto-blog/index.html#host-a-quarto-blog",
-    "title": "Create Quarto Blog",
+    "title": "Create a Quarto Blog",
     "section": "3. Host a Quarto Blog",
     "text": "3. Host a Quarto Blog\nOnce you’ve set up blog in your local system, now it’s time to host it online. For, hosting there are several popular alternatives like GitHub pages, Netlify, RStudio connect etc. In this blog, we will be using Cloudflare which offers free hosting services along with few features (custom domain, email routing etc) which will be useful for you in later.\n\na. Sign up for Cloudflare.com\nFirst, you need to sign up for cloudflare.com account. This will give your access to features that cloudflare provides which you’ll sure find them amazing.\nIf you already have an account, just login to Cloudflare dashboard.\n\n\n\nb. Create a Cloudflare Project\nOnce you’ve logged into dashboard then, then you have to :\n\nFirst, click on Pages on you left sidebar\nSecond, click on create project\nThird, click on direct upload\n\n\n\n\nc. Name your Project\nNow, choose name for your project (eg: myblog or yourname), which will be your website url.\nPlease, try adding different prefix/suffix, if the address you want is not available.\nExample: I have used -np as suffix and your blog url will be myblog-np.pages.dev\n\n\n\nd. Direct Upload Quarto Project Folder\nAfter choosing your project name, now it’s time for upload.\n\nFirst, click on the select from computer\nSecond, click on upload folder\nThird, navigate _site folder (components of your blog)\nFourth, click upload\n\n\n\n\ne. Deploy a Quarto Blog\nOnce you’ve uploaded the _site folder, now it’s time for deploy your site online.\nFor that, click on Deploy site.\n\n\n\nf. Deploy a Quarto Blog\nOnce, you see Success, please continue to the project.\n\n\n\ng. Setting and Dashboard\nNow, your blog is live in address like myblog-np.pages.dev (projectname.pages.dev).\n\nIn custom domains tab, you may add your own domain (.com, .net, .org etc)\nIn settings tab, settings like Web analytics, renaming / deleting project are available.\n\nYou can click on the Domains: myblog-np.pages.dev (similar link) below to view your site.\n\n\n\nh. View your live quarto blog\nCongratulations, your blog is live on the internet."
   }
