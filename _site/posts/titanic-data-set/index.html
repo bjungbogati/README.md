@@ -2,7 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.594">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+                        <link rel="dns-prefetch" href="//bjungbogati.com.np">
+                        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+                        <link rel="dns-prefetch" href="//ajax.cloudflare.com">
+                        <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
+                        <link rel="dns-prefetch" href="//platform.twitter.com">
+                        <link rel="preconnect" href="//bjungbogati.com.np">
+                        <link rel="preconnect" href="//fonts.googleapis.com">
+                        <link rel="preconnect" href="//ajax.cloudflare.com">
+                        <link rel="preconnect" href="//d33wubrfki0l68.cloudfront.net">
+                        <link rel="preconnect" href="//platform.twitter.com"> <meta name=generator content="quarto-0.9.594">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,7 +83,7 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">Blog</a>
+    <a class="nav-link" href="../../posts">Blog</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
@@ -104,14 +114,14 @@ ul.task-list{list-style: none;}
 <h2 class="anchored">
 <strong>&nbsp;</strong>
 </h2>
-<img class="aligncenter wp-image-234 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/jpt-1024x753.jpg" alt="Titanic before its First and Final Voyage." width="1024" height="753">
+<img class="aligncenter wp-image-234 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/jpt-1024x753.webp" alt="Titanic before its First and Final Voyage." width="1024" height="753">
 <div class="container-fluid main-container">
 <section id="titanic" class="level2">
 <h3 class="anchored" data-anchor-id="titanic">
 Introduction
 </h3>
-<p>In this post, I am going to do&nbsp; Exploratory Data Analysis(EDA) on Titanic disaster datasets from <a href="https://www.kaggle.com/c/titanic/data">kaggle</a> Titanic: Machine Learning Disaster Competition. Before building machine learning model, I want to do EDA on this dataset find some idea about the features and structure of the dataset.</p>
-“RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early hours of 15 April 1912, after colliding with an iceberg during its maiden voyage from Southampton to New York City. There were an estimated 2,224 passengers and crew aboard, and more than 1,500 died, making it one of the deadliest commercial peacetime maritime disasters in modern history. RMS Titanic was the largest ship afloat at the time it entered service.” from <a href="https://en.wikipedia.org/wiki/RMS_Titanic">Wikipedia</a>.
+<p>In this post, I am going to do&nbsp; Exploratory Data Analysis(EDA) on Titanic disaster datasets from  <a rel="nofollow noopener" target="_blank" href="https://www.kaggle.com/c/titanic/data">kaggle</a> Titanic: Machine Learning Disaster Competition. Before building machine learning model, I want to do EDA on this dataset find some idea about the features and structure of the dataset.</p>
+“RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early hours of 15 April 1912, after colliding with an iceberg during its maiden voyage from Southampton to New York City. There were an estimated 2,224 passengers and crew aboard, and more than 1,500 died, making it one of the deadliest commercial peacetime maritime disasters in modern history. RMS Titanic was the largest ship afloat at the time it entered service.” from  <a rel="nofollow noopener" target="_blank" href="https://en.wikipedia.org/wiki/RMS_Titanic">Wikipedia</a>.
 <h3 class="anchored">
 Import and clean data
 </h3>
@@ -180,7 +190,7 @@ mice_plot &lt;- aggr(titanic.df, col=c('green','red'),
                   labels=names(titanic.df), cex.axis=.7,
                   gap=3, ylab=c("Missing data","Pattern"))</pre>
 <p>&nbsp;</p>
-<img class="aligncenter wp-image-242 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig1-1024x731.png" alt="Missing data Pattern and details" width="1024" height="731">
+<img class="aligncenter wp-image-242 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig1-1024x731.webp" alt="Missing data Pattern and details" width="1024" height="731">
 <pre class="theme:github lang:default decode:true ">## 
 ##  Variables sorted by number of missings: 
 ##     Variable        Count
@@ -270,7 +280,7 @@ g &lt;- ggplot(titanic.df,aes(Survived))
 g + geom_bar(aes(y = (..count..)/sum(..count..))) + 
           scale_y_continuous(labels=scales::percent)+theme_minimal()+ylab("Percent")</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter wp-image-244 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig2-1024x731.png" alt="Distribution of survival of passenger" width="1024" height="731">In above figure, 0 means not Survived and 1 mins survived. We can see in the figure that more than 60% people were not able to survive the disaster.</p>
+<p><img class="aligncenter wp-image-244 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig2-1024x731.webp" alt="Distribution of survival of passenger" width="1024" height="731">In above figure, 0 means not Survived and 1 mins survived. We can see in the figure that more than 60% people were not able to survive the disaster.</p>
 </section>
 </div>
 <h3 class="anchored">
@@ -283,11 +293,11 @@ g &lt;-ggplot(titanic.df,aes(Age))+theme_minimal()
 g + geom_density()
 </pre>
 <p>&nbsp;</p>
-<img class="aligncenter wp-image-245 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig3-1024x731.png" alt="Density plot of age" width="1024" height="731">
+<img class="aligncenter wp-image-245 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig3-1024x731.webp" alt="Density plot of age" width="1024" height="731">
 <pre class="theme:github lang:r decode:true">g + geom_histogram(binwidth = 5)</pre>
 &nbsp;
 <p class="alignnone">
-<img class="aligncenter size-large wp-image-246" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig4-1024x731.png" alt="" width="1024" height="731">Two figure of Age distribution shows that Titanic was filled with the passenger aged 80 years to infants. The peak in above plot shows that the maximum number of people were from (25- 35) age group.
+<img class="aligncenter size-large wp-image-246" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig4-1024x731.webp" alt="" width="1024" height="731">Two figure of Age distribution shows that Titanic was filled with the passenger aged 80 years to infants. The peak in above plot shows that the maximum number of people were from (25- 35) age group.
 </p>
 <pre class="theme:github lang:r decode:true">g &lt;-ggplot(titanic.df,aes(Age))+theme_bw()+facet_wrap(~Survived)
 g + geom_density()</pre>
@@ -295,7 +305,7 @@ g + geom_density()</pre>
 </section>
 </div>
 <h3 class="anchored">
-<img class="aligncenter size-large wp-image-247" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig5-1024x731.png" alt="" width="1024" height="731">
+<img class="aligncenter size-large wp-image-247" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig5-1024x731.webp" alt="" width="1024" height="731">
 </h3>
 This density plot shows us the distribution of age of passenger on basis of their survival. The plot shows that kids were likely to survive the disaster.
 <div class="container-fluid main-container">
@@ -308,24 +318,24 @@ Sex Distribution
 g &lt;-ggplot(titanic.df,aes(Sex,fill=Sex))+theme_bw()
 g+geom_bar(aes(y = (..count..)/sum(..count..))) + 
           scale_y_continuous(labels=scales::percent)+theme_minimal()+ylab("Percent")&lt;/code&gt;</pre>
-<p><img class="aligncenter size-large wp-image-248" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig6-1024x731.png" alt="" width="1024" height="731"></p>
+<p><img class="aligncenter size-large wp-image-248" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig6-1024x731.webp" alt="" width="1024" height="731"></p>
 <p>This plot shows more than 60% of Titanic passenger were Male.</p>
 &nbsp;
 <pre class="theme:github lang:r decode:true">g &lt;-ggplot(titanic.df,aes(Sex,fill=Sex))+theme_bw()+facet_wrap(~Survived)+labs(x="",y="")
 g+geom_bar()</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter size-large wp-image-249" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig7-1024x731.png" alt="" width="1024" height="731"></p>
+<p><img class="aligncenter size-large wp-image-249" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig7-1024x731.webp" alt="" width="1024" height="731"></p>
 This plot shows that more female survived the Titanic disaster than the male even&nbsp;though the population of the male was bigger than female in Titanic.
 <h3 class="anchored">
 Pclass Distribution
 </h3>
 <pre class="theme:github lang:r decode:true">g &lt;-ggplot(titanic.df,aes(Pclass,fill=Sex))+theme_bw()
 g+geom_bar()</pre>
-<img class="aligncenter wp-image-280 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/unnamed-chunk-12-1-1024x731.png" alt="pclass distribution" width="1024" height="731">The passenger of Titanic was categorized into three classes. From above figure, we can see that 3rd class passengers were more than half of the Titanic passengers.
+<img class="aligncenter wp-image-280 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/unnamed-chunk-12-1-1024x731.webp" alt="pclass distribution" width="1024" height="731">The passenger of Titanic was categorized into three classes. From above figure, we can see that 3rd class passengers were more than half of the Titanic passengers.
 <pre class="theme:github lang:r decode:true">g &lt;-ggplot(titanic.df,aes(Survived,fill=Survived))+theme_bw()+facet_wrap(~Pclass)
 g+geom_bar()</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter wp-image-250 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig8-1024x731.png" alt="Pclass on basis of survival" width="1024" height="731"></p>
+<p><img class="aligncenter wp-image-250 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig8-1024x731.webp" alt="Pclass on basis of survival" width="1024" height="731"></p>
 This plot shows the survival of passenger on basis of Passenger class. We can see that 3rd and 2nd class passengers were more likely to not survive the disaster.1st class passengers were more likely to survive the disaster.
 <h3 class="anchored">
 Embark
@@ -334,7 +344,7 @@ Embark
 g &lt;-ggplot(titanic.df,aes(Survived,fill=Survived))+theme_bw()+facet_wrap(~Embarked)
 g+geom_bar()</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter wp-image-251 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig9-1024x731.png" alt="Embarked and survival" width="1024" height="731"></p>
+<p><img class="aligncenter wp-image-251 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig9-1024x731.webp" alt="Embarked and survival" width="1024" height="731"></p>
 Titanic’s first voyage was to New York before sailing to the Atlantic Ocean it picked passengers from three ports&nbsp;Cherbourg, Queenstown, Southampton. The above plot shows that many passengeriTitanicic embarked from the port of Southampton.
 <h3 class="anchored">
 Fare distribution
@@ -342,7 +352,7 @@ Fare distribution
 <pre class="theme:github lang:r decode:true">g &lt;-ggplot(titanic.df,aes(Fare,fill=Survived))+theme_bw()
 g+geom_histogram(binwidth = 10)</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter wp-image-252 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig10-1024x731.png" alt="Fare Distribution" width="1024" height="731"></p>
+<p><img class="aligncenter wp-image-252 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/fig10-1024x731.webp" alt="Fare Distribution" width="1024" height="731"></p>
 This plot shows the distribution of fare paid by the passengers. We can see that more than 600 passengers paid in the range of( 10 to 20) fare. We also see that many passengers paid in the range of (10 to 100) fare.
 <h3 class="anchored">
 Parch Distribution
@@ -351,7 +361,7 @@ Parch Distribution
 g+geom_bar()</pre>
 <h3 class="anchored">
 </h3>
-<p><img class="aligncenter wp-image-282 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/Parch-1024x731.png" alt="Parch distribution" width="1024" height="731"></p>
+<p><img class="aligncenter wp-image-282 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/Parch-1024x731.webp" alt="Parch distribution" width="1024" height="731"></p>
 This plot shows the distribution of parent and children in passengers of Titanic. We can see that around 1000 of passengers were traveling without any parents or children.
 <h3 class="anchored">
 SibSp Distribution
@@ -360,7 +370,7 @@ SibSp Distribution
 g+geom_bar()
 </pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter wp-image-283 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/Sibsp-1024x731.png" alt="SibSp Distribution" width="1024" height="731"></p>
+<p><img class="aligncenter wp-image-283 size-large" src="http://diwashrestha.com/wp-content/uploads/2018/05/Sibsp-1024x731.webp" alt="SibSp Distribution" width="1024" height="731"></p>
 </section>
 </div>
 This plot shows the distribution of&nbsp; Siblings and spouse of the passengers. More than 800 of people were traveling without siblings or spouse. This plot shows that SibSp was distributed from 0 to Eight sibling/spouse.

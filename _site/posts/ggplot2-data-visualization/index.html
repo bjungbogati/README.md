@@ -2,7 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.594">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+                        <link rel="dns-prefetch" href="//bjungbogati.com.np">
+                        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+                        <link rel="dns-prefetch" href="//ajax.cloudflare.com">
+                        <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
+                        <link rel="dns-prefetch" href="//platform.twitter.com">
+                        <link rel="preconnect" href="//bjungbogati.com.np">
+                        <link rel="preconnect" href="//fonts.googleapis.com">
+                        <link rel="preconnect" href="//ajax.cloudflare.com">
+                        <link rel="preconnect" href="//d33wubrfki0l68.cloudfront.net">
+                        <link rel="preconnect" href="//platform.twitter.com"> <meta name=generator content="quarto-0.9.594">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,7 +83,7 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">Blog</a>
+    <a class="nav-link" href="../../posts">Blog</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
@@ -102,7 +112,7 @@ ul.task-list{list-style: none;}
 
 
 <h2 class="anchored">
-<img class="aligncenter size-full wp-image-324" src="http://diwashrestha.com/wp-content/uploads/2018/06/Data-Tattoos.jpg" alt="" width="450" height="369">Introduction
+<img class="aligncenter size-full wp-image-324" src="http://diwashrestha.com/wp-content/uploads/2018/06/Data-Tattoos.webp" alt="" width="450" height="369">Introduction
 </h2>
 We have seen lots of visuals in our life like pictures, animations, and some graphical plots. Graphics help or make easy to get an idea or understand anything. Visualization is an important part of the Data science or Data Analysis. In this blog, we will learn about visualization in&nbsp; R by creating different type of plots.
 <h2 class="anchored">
@@ -129,32 +139,32 @@ From above code, we found out that mpg has 234 rows and 11 columns. We will crea
 Scatterplot
 </h2>
 <pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,colour= cyl))</pre>
-<p><img class="aligncenter size-full wp-image-337" src="http://diwashrestha.com/wp-content/uploads/2018/06/scatterplot-2.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-337" src="http://diwashrestha.com/wp-content/uploads/2018/06/scatterplot-2.webp" alt="" width="653" height="430"></p>
 <p>&nbsp;</p>
 A scatterplot uses the value of two variables to plot on the graph.&nbsp;A scatterplot shows the&nbsp; correlation between two variables in the graph. In this scatterplot, we used color to define the distribution of data using the third variable.
 <h2 class="anchored">
 Bar Chart
 </h2>
 <pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy,displ))+geom_col(aes(fill=cyl))</pre>
-<p><img class="aligncenter size-full wp-image-339" src="http://diwashrestha.com/wp-content/uploads/2018/06/barchart.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-339" src="http://diwashrestha.com/wp-content/uploads/2018/06/barchart.webp" alt="" width="653" height="430"></p>
 Barchart uses 2 variable to show its plot using rectangular shape. Barchart height shows the sum of y axis data on basis of the x-axis variable.
 <h2 class="anchored">
 Count chart
 </h2>
 <pre class="theme:github lang:r decode:true ">ggplot(mpg)+geom_bar(aes(manufacturer,fill=manufacturer))+  coord_flip()</pre>
 <p>&nbsp;</p>
-<img class="aligncenter size-full wp-image-329" src="http://diwashrestha.com/wp-content/uploads/2018/06/countplot-1.png" alt="" width="653" height="430">The Count chart uses only one variable and plots the presence count of variable.
+<img class="aligncenter size-full wp-image-329" src="http://diwashrestha.com/wp-content/uploads/2018/06/countplot-1.webp" alt="" width="653" height="430">The Count chart uses only one variable and plots the presence count of variable.
 <h2 class="anchored">
 Bubble Chart
 </h2>
 <pre class="theme:github lang:r decode:true">ggplot(mpg)+ geom_point(aes(cty,displ,size=hwy,colour="red",alpha=0.5),show.legend = F)</pre>
-<p><img class="aligncenter size-full wp-image-335" src="http://diwashrestha.com/wp-content/uploads/2018/06/bubblechart.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-335" src="http://diwashrestha.com/wp-content/uploads/2018/06/bubblechart.webp" alt="" width="653" height="430"></p>
 The Bubble chart is same as a scatterplot only difference is it uses an extra third variable to show the size of the points.
 <h2 class="anchored">
 Line Chart
 </h2>
 <pre class="theme:github lang:r decode:true">ggplot(mpg,aes(displ,cty))+geom_point()+geom_line()</pre>
-<p><img class="aligncenter size-full wp-image-340" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-340" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart.webp" alt="" width="653" height="430"></p>
 The line chart is plot which shows information by connecting series of points with straight lines.In above picture, we can see the line plot.B ut this dataset is not good to plot a time series so we will create a data frame with a random variable and plot another line plot.
 <pre class="theme:github lang:r decode:true">x = sample(1:100, 20, replace=FALSE)
 y = sample(1:100, 20, replace=FALSE)
@@ -163,7 +173,7 @@ y = sample(1:100, 20, replace=FALSE)
 data &lt;- data.frame(x,y)
 ggplot(data,aes(x,y))+geom_point()+geom_line()</pre>
 <p>&nbsp;</p>
-<p><img class="aligncenter size-full wp-image-341" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart2.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-341" src="http://diwashrestha.com/wp-content/uploads/2018/06/linechart2.webp" alt="" width="653" height="430"></p>
 In this line chart, we can see the series of the data points connected by the lines.&nbsp; Time series and finacial analysis use line plots .
 <h3 class="anchored">
 </h3>
@@ -171,7 +181,7 @@ In this line chart, we can see the series of the data points connected by the li
 Pie chart
 </h2>
 <pre class="theme:github lang:r decode:true">ggplot(mpg,aes(x=" "))+geom_bar(width=1,aes(fill=drv))+coord_polar("y",start=0)</pre>
-<p><img class="aligncenter size-full wp-image-343" src="http://diwashrestha.com/wp-content/uploads/2018/06/Piechart.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-343" src="http://diwashrestha.com/wp-content/uploads/2018/06/Piechart.webp" alt="" width="653" height="430"></p>
 Piechart got its name as it looks like a pie or round shape. It plots counts of a variable in a circle and it plots to take the whole circle as 100%. A pie chart is not good for multiple variable visualization.
 <h3 class="anchored">
 </h3>
@@ -180,7 +190,7 @@ Histogram
 </h2>
 <pre class="theme:github lang:r decode:true">#default value for bins =30
 ggplot(mpg,aes(displ))+geom_histogram(color="orange")</pre>
-<p><img class="aligncenter size-full wp-image-344" src="http://diwashrestha.com/wp-content/uploads/2018/06/histogram.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-344" src="http://diwashrestha.com/wp-content/uploads/2018/06/histogram.webp" alt="" width="653" height="430"></p>
 Histogram is a rectangular&nbsp;plot which gives us the frequency of the variable&nbsp;by making different ranges. It shows the distribution of a continuous&nbsp;variable. Histogram is different from the bar chart, bar chart&nbsp;relates to Two variables but histogram relates to One variable. Histogram uses the bin that divides the entire range of values into a series of intervals—and then count how many values fall into each interval.Histogram&nbsp;also shows the distribution of the data.
 <h3 class="anchored">
 </h3>
@@ -188,17 +198,17 @@ Histogram is a rectangular&nbsp;plot which gives us the frequency of the variabl
 Area plot
 </h2>
 <pre class="theme:github lang:r decode:true">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7,show.legend = FALSE)+ facet_grid(~drv)</pre>
-<p><img class="aligncenter size-full wp-image-346" src="http://diwashrestha.com/wp-content/uploads/2018/06/Areaplot.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-346" src="http://diwashrestha.com/wp-content/uploads/2018/06/Areaplot.webp" alt="" width="653" height="430"></p>
 The only difference between Area and line plot is the area plot is filled with color. Combination of two or more area plot form Stacked area plot.
 <pre class="theme:github lang:r decode:true ">ggplot(mpg, aes(x=cty, fill=drv)) + geom_area(stat ="bin", alpha=0.7)</pre>
-<p><img class="aligncenter size-full wp-image-347" src="http://diwashrestha.com/wp-content/uploads/2018/06/stackedarea.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-347" src="http://diwashrestha.com/wp-content/uploads/2018/06/stackedarea.webp" alt="" width="653" height="430"></p>
 &nbsp;
 <h2 class="anchored">
 Boxplot
 </h2>
 &nbsp;
 <pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(cyl,cty,fill=cyl))+geom_boxplot()</pre>
-<p><img class="aligncenter size-full wp-image-348" src="http://diwashrestha.com/wp-content/uploads/2018/06/Boxplot.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-348" src="http://diwashrestha.com/wp-content/uploads/2018/06/Boxplot.webp" alt="" width="653" height="430"></p>
 Boxplot plots five number summary in single plot ie&nbsp;minimum, first quartile, median, third quartile, and maximum. The&nbsp;box upper and lower side shows third and the first quartile respectively. Middle line in the box shows the median value.&nbsp; The line above and below the box shows maximum and minimum value and points outside this line&nbsp;are called outliers
 <h3 class="anchored">
 </h3>
@@ -206,10 +216,10 @@ Boxplot plots five number summary in single plot ie&nbsp;minimum, first quartile
 Density Plot
 </h2>
 <pre class="theme:github lang:r decode:true ">ggplot(mpg,aes(hwy))+geom_density(fill="blue",alpha=0.3)</pre>
-<p><img class="aligncenter size-full wp-image-350" src="http://diwashrestha.com/wp-content/uploads/2018/06/Density.png" alt="" width="653" height="430"></p>
+<p><img class="aligncenter size-full wp-image-350" src="http://diwashrestha.com/wp-content/uploads/2018/06/Density.webp" alt="" width="653" height="430"></p>
 <p>Density plot shows the distribution of the data. This plot shows the smooth distribution&nbsp;by smoothing out the noise.&nbsp;The peaks of Density Plot display where values are concentrated over the interval.</p>
 <p>These are the few of the many visualization types which are used in Data Analysis or Data Science. I hope it this was helpful for and if you have any query or want to give feedback please use the comment section.</p>
-<p>Code for the visualization in this&nbsp;<a href="https://github.com/sdiwash/DiwaShrestha/blob/master/Visualization/Visualization%20in%20R%20with%20ggplot2.R" target="_blank" rel="noopener">Github repo .</a></p>
+<p>Code for the visualization in this&nbsp; <a rel="nofollow noopener" target="_blank" href="https://github.com/sdiwash/DiwaShrestha/blob/master/Visualization/Visualization%20in%20R%20with%20ggplot2.R" target="_blank" rel="noopener">Github repo .</a></p>
 <p>&nbsp;</p>
 
 

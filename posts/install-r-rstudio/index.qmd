@@ -16,10 +16,6 @@ categories:
   - RStudio
 ---
 
-
-
-
-
 You are here to get step-by-step tutorials to install R.
 
 In this article, you will learn how to install R language and RStudio IDE (on your system: Windows, or Linux OS).
@@ -40,19 +36,19 @@ RStudio is an integrated development environment (IDE) for R users. It is a grea
 
 ### Install R & RStudio in Windows
 
-![](install-r-windows.png)
+-   Download R installer from [Windows](https://cran.r-project.org/bin/windows/base)
 
-- Download R installer from [Windows](https://cran.r-project.org/bin/windows/base)
+-   Open the installer, Leave all default settings in the installation options. Choose the 64bit or 32 bit as your system.
 
-- Open the installer, Leave all default settings in the installation options. Choose the 64bit or 32 bit as your system.
+    ![](install-r-windows.png)
+
+-   Download the Windows [RStudio installer](https://www.rstudio.com/products/rstudio/download)
+
+-   Run the installer leave all the default settings in installation options.
+
+-   Open RStudio to play with R programming.
 
 ![](install-rstudio.png)
-
-- Download the Windows [RStudio installer](https://www.rstudio.com/products/rstudio/download)
-
-- Run the installer leave all the default settings in installation options.
-
-- Open RStudio or Rgui to play with R programming.
 
 ### Install R & RStudio in Linux
 
@@ -60,27 +56,19 @@ Open the Terminal and type following command for installing R
 
 #### Install R in Ubuntu / Debian
 
-
-{}
-sudo apt-get install r-base r-base-dev
-sudo apt-get update
-
+> sudo apt-get install r-base r-base-dev sudo apt-get update
 
 *Fedora*
 
-{}
-sudo yum install R
-sudo yum update
+> sudo yum install R sudo yum update
 
+-   Download the Rstudio Desktop Installer for your Linux distribution from https://www.rstudio.com/products/rstudio/download/#download
 
-- Download the Rstudio Desktop Installer for your Linux distribution from https://www.rstudio.com/products/rstudio/download/#download
+-   Run the installer leave all the default settings in installation option
 
-- Run the installer leave all the default settings in installation option
+-   Open Rstudio or use **sudo -i R** in terminal and play with R language
 
-- Open Rstudio or use **sudo -i R** in terminal and play with R language
-
-![](rstudio-gui.png)
-![](r-terminal.png)
+![](rstudio-gui.png) ![](r-terminal.png)
 
 #### Install RStudio Server (Linux)
 
@@ -92,40 +80,25 @@ There is another Browser-based IDE called Rstudio server. It provides the servic
 
 Open a terminal and use the following command
 
-
-#64 bit
-sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/rstudio-server-1.1.456-amd64.deb
-sudo gdebi rstudio-server-1.1.456-amd64.deb
-
+#64 bit sudo apt-get install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.456-amd64.deb sudo gdebi rstudio-server-1.1.456-amd64.deb
 
 # 32bit
-sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/rstudio-server-1.1.456-i386.deb
-sudo gdebi rstudio-server-1.1.456-i386.deb
 
+> sudo apt-get install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.456-i386.deb sudo gdebi rstudio-server-1.1.456-i386.deb
 
-- Open Browser and use *localhost:8787* in URL tab
+-   Open Browser and use *localhost:8787* in URL tab
 
 ![](rstudio-server-signin.png)
 
-- Sign in to RStudio server using Username and password
+-   Sign in to RStudio server using Username and password
 
 ### Install R Packages
 
 After you have installed R and RStudio, you can now install R packages easily.
 
-- First, go to start menu and open RStudio.</li>
-- Below, you will see the console, where you need to enter: 
+-   First, go to start menu and open RStudio.
+-   Below, you will see the console, where you need to enter:
 
-{}
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("readxl")
-
+> install.packages(c("tidyverse", "rmarkdown", "readxl"))
 
 ![](install-r-packages.png)
-
-
-
-

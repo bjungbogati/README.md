@@ -17,6 +17,7 @@
     "listing": "/posts.html",
     "items": [
       "/posts/r-google-colab/index.html",
+      "/posts/create-quarto-blog/index.html",
       "/posts/data-science-overview/index.html",
       "/posts/creating-distill-blog/index.html",
       "/posts/nepal-tourism-dashboard/index.html",

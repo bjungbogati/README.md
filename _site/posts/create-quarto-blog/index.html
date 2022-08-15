@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Binod Jung Bogati">
+<meta name="dcterms.date" content="2021-01-09">
+
+<title>Binod Jung Bogati - Create Quarto Blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Binod Jung Bogati</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">Blog</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bjungbogati"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bjungbogati"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Create Quarto Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Binod Jung Bogati </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 9, 2021</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-quarto" id="toc-what-is-quarto" class="nav-link active" data-scroll-target="#what-is-quarto">What is Quarto?</a></li>
+  <li><a href="#initial-setups" id="toc-initial-setups" class="nav-link" data-scroll-target="#initial-setups">1. Initial Setups</a>
+  <ul class="collapse">
+  <li><a href="#a.-install-r-and-rstudio" id="toc-a.-install-r-and-rstudio" class="nav-link" data-scroll-target="#a.-install-r-and-rstudio">a. Install R and RStudio</a></li>
+  <li><a href="#b.-install-quarto-cli-from-website" id="toc-b.-install-quarto-cli-from-website" class="nav-link" data-scroll-target="#b.-install-quarto-cli-from-website">b. Install Quarto CLI from Website</a></li>
+  </ul></li>
+  <li><a href="#create-quarto-blog-with-rstudio" id="toc-create-quarto-blog-with-rstudio" class="nav-link" data-scroll-target="#create-quarto-blog-with-rstudio">2. Create Quarto Blog with RStudio</a>
+  <ul class="collapse">
+  <li><a href="#a.-install-quarto-package" id="toc-a.-install-quarto-package" class="nav-link" data-scroll-target="#a.-install-quarto-package">a. Install Quarto Package</a></li>
+  <li><a href="#b.-create-a-new-project" id="toc-b.-create-a-new-project" class="nav-link" data-scroll-target="#b.-create-a-new-project">b. Create a New Project</a></li>
+  <li><a href="#c.-create-a-new-directory" id="toc-c.-create-a-new-directory" class="nav-link" data-scroll-target="#c.-create-a-new-directory">c.&nbsp;Create a New Directory</a></li>
+  <li><a href="#d.-select-a-quarto-blog" id="toc-d.-select-a-quarto-blog" class="nav-link" data-scroll-target="#d.-select-a-quarto-blog">d.&nbsp;Select a Quarto Blog</a></li>
+  <li><a href="#e.-create-a-quarto-blog" id="toc-e.-create-a-quarto-blog" class="nav-link" data-scroll-target="#e.-create-a-quarto-blog">e. Create a Quarto Blog</a></li>
+  <li><a href="#f.-quarto-blog-render" id="toc-f.-quarto-blog-render" class="nav-link" data-scroll-target="#f.-quarto-blog-render">f.&nbsp;Quarto Blog Render</a></li>
+  <li><a href="#g.-preview-of-your-blog" id="toc-g.-preview-of-your-blog" class="nav-link" data-scroll-target="#g.-preview-of-your-blog">g. Preview of your blog</a></li>
+  </ul></li>
+  <li><a href="#host-a-quarto-blog" id="toc-host-a-quarto-blog" class="nav-link" data-scroll-target="#host-a-quarto-blog">3. Host a Quarto Blog</a>
+  <ul class="collapse">
+  <li><a href="#a.-sign-up-for-cloudflare.com" id="toc-a.-sign-up-for-cloudflare.com" class="nav-link" data-scroll-target="#a.-sign-up-for-cloudflare.com">a. Sign up for <span>Cloudflare.com</span></a></li>
+  <li><a href="#b.-create-a-cloudflare-project" id="toc-b.-create-a-cloudflare-project" class="nav-link" data-scroll-target="#b.-create-a-cloudflare-project">b. Create a Cloudflare Project</a></li>
+  <li><a href="#c.-name-your-project" id="toc-c.-name-your-project" class="nav-link" data-scroll-target="#c.-name-your-project">c.&nbsp;Name your Project</a></li>
+  <li><a href="#d.-direct-upload-quarto-project-folder" id="toc-d.-direct-upload-quarto-project-folder" class="nav-link" data-scroll-target="#d.-direct-upload-quarto-project-folder">d.&nbsp;Direct Upload Quarto Project Folder</a></li>
+  <li><a href="#e.-deploy-a-quarto-blog" id="toc-e.-deploy-a-quarto-blog" class="nav-link" data-scroll-target="#e.-deploy-a-quarto-blog">e. Deploy a Quarto Blog</a></li>
+  <li><a href="#f.-deploy-a-quarto-blog" id="toc-f.-deploy-a-quarto-blog" class="nav-link" data-scroll-target="#f.-deploy-a-quarto-blog">f.&nbsp;Deploy a Quarto Blog</a></li>
+  <li><a href="#g.-setting-and-dashboard" id="toc-g.-setting-and-dashboard" class="nav-link" data-scroll-target="#g.-setting-and-dashboard">g. Setting and Dashboard</a></li>
+  <li><a href="#h.-view-your-live-quarto-blog" id="toc-h.-view-your-live-quarto-blog" class="nav-link" data-scroll-target="#h.-view-your-live-quarto-blog">h. View your live quarto blog</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>In this blog, you will learn about Quarto, it’s features and step-by-step process to create a blog for you.</p>
+<section id="what-is-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h2>
+<p>Quarto is an open source scientific and technical publishing system built-on pandoc.</p>
+<p><img src="images/intro-quarto.jpg" class="img-fluid"></p>
+</section>
+<section id="initial-setups" class="level2">
+<h2 class="anchored" data-anchor-id="initial-setups">1. Initial Setups</h2>
+<p>You may follow the steps provided here, if you’re beginner or R user.</p>
+<section id="a.-install-r-and-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="a.-install-r-and-rstudio">a. Install R and RStudio</h3>
+<p>First of all, please make sure you’ve installed R and RStudio. The latest version of RStudio supports Quarto docs and visual markdown editor.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>R for Windows</td>
+<td><a href="https://cran.r-project.org/bin/windows/base/" rel="nofollow">Download Link</a></td>
+</tr>
+<tr class="even">
+<td>RStudio for Windows</td>
+<td><a href="https://www.rstudio.com/products/rstudio/download/#download" rel="nofollow">Download Link</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/install-r-rstudio.jpg" class="img-fluid"></p>
+</section>
+<section id="b.-install-quarto-cli-from-website" class="level3">
+<h3 class="anchored" data-anchor-id="b.-install-quarto-cli-from-website">b. Install Quarto CLI from Website</h3>
+<p>For next step, you need to <a href="https://quarto.org/docs/get-started/" rel="nofollow">download and install quarto</a> from website.</p>
+<blockquote class="blockquote">
+<p>You can use Quarto CLI regardless of R and RStudio. However, if you’re a beginner or R user, we recommend you to do so.</p>
+</blockquote>
+<p><img src="images/download-quarto-cli.jpg" class="img-fluid"></p>
+</section>
+</section>
+<section id="create-quarto-blog-with-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="create-quarto-blog-with-rstudio">2. Create Quarto Blog with RStudio</h2>
+<p>RStudio support for quarto documents is awesome. With visual markdown editor, it was super easy to create this blog.</p>
+<section id="a.-install-quarto-package" class="level3">
+<h3 class="anchored" data-anchor-id="a.-install-quarto-package">a. Install Quarto Package</h3>
+<p>Quarto package helps you create quarto website or blog pages in RStudio with ease.</p>
+<p>You can install quarto package with following steps:</p>
+<ul>
+<li>First, click on Packages tab</li>
+<li>Then, in text box type quarto</li>
+<li>Click on Install button</li>
+</ul>
+<p><img src="images/install-quarto-package.jpg" class="img-fluid"></p>
+</section>
+<section id="b.-create-a-new-project" class="level3">
+<h3 class="anchored" data-anchor-id="b.-create-a-new-project">b. Create a New Project</h3>
+<p>On your right-top, click on Project and further on New Project.</p>
+<p><img src="images/new-quarto-project.jpg" class="img-fluid"></p>
+</section>
+<section id="c.-create-a-new-directory" class="level3">
+<h3 class="anchored" data-anchor-id="c.-create-a-new-directory">c.&nbsp;Create a New Directory</h3>
+<p>Now, you have three options to choose. Since, this is your new quarto project, you can choose New Directory.</p>
+<p><img src="images/new-directory-create.jpg" class="img-fluid"></p>
+</section>
+<section id="d.-select-a-quarto-blog" class="level3">
+<h3 class="anchored" data-anchor-id="d.-select-a-quarto-blog">d.&nbsp;Select a Quarto Blog</h3>
+<p>Further, you can click on Quarto blog since you’re creating a blog.</p>
+<p><img src="images/quarto-blog-click.jpg" class="img-fluid"></p>
+</section>
+<section id="e.-create-a-quarto-blog" class="level3">
+<h3 class="anchored" data-anchor-id="e.-create-a-quarto-blog">e. Create a Quarto Blog</h3>
+<p>Now, it’s time for you to create quarto blog.</p>
+<ul>
+<li>First, enter name of your blog (eg: myblog). This will create new folder with name of your blog.</li>
+<li>Then, select location for your blog to save in your local system. It can be your documents.</li>
+<li>Please, check ✓ use visual markdown editor</li>
+<li>And, click on create project.</li>
+</ul>
+<p><img src="images/create-quarto-blog-5.jpg" class="img-fluid"></p>
+</section>
+<section id="f.-quarto-blog-render" class="level3">
+<h3 class="anchored" data-anchor-id="f.-quarto-blog-render">f.&nbsp;Quarto Blog Render</h3>
+<p>Now you can type name of your blog which will be shown in home page.</p>
+<p>Then click on render to preview your blog.</p>
+<p><img src="images/quarto-blog-render.jpg" class="img-fluid"></p>
+</section>
+<section id="g.-preview-of-your-blog" class="level3">
+<h3 class="anchored" data-anchor-id="g.-preview-of-your-blog">g. Preview of your blog</h3>
+<p>Once, render completes then you’ll see preview of your blog. This is how your blog looks in your local system.</p>
+<p><img src="images/quarto-index-page.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="host-a-quarto-blog" class="level2">
+<h2 class="anchored" data-anchor-id="host-a-quarto-blog">3. Host a Quarto Blog</h2>
+<p>Once you’ve set up blog in your local system, now it’s time to host it online. For, hosting there are several popular alternatives like GitHub pages, Netlify, RStudio connect etc. In this blog, we will be using Cloudflare which offers free hosting services along with few features (custom domain, email routing etc) which will be useful for you in later.</p>
+<section id="a.-sign-up-for-cloudflare.com" class="level3">
+<h3 class="anchored" data-anchor-id="a.-sign-up-for-cloudflare.com">a. Sign up for <a href="https://dash.cloudflare.com/sign-up">Cloudflare.com</a></h3>
+<p>First, you need to sign up for cloudflare.com account. This will give your access to features that cloudflare provides which you’ll sure find them amazing.</p>
+<p>If you already have an account, just login to Cloudflare dashboard.</p>
+<p><img src="images/signup-cloudflare-account.jpg" class="img-fluid"></p>
+</section>
+<section id="b.-create-a-cloudflare-project" class="level3">
+<h3 class="anchored" data-anchor-id="b.-create-a-cloudflare-project">b. Create a Cloudflare Project</h3>
+<p>Once you’ve logged into dashboard then, then you have to :</p>
+<ul>
+<li><p>First, click on Pages on you left sidebar</p></li>
+<li><p>Second, click on create project</p></li>
+<li><p>Third, click on direct upload</p></li>
+</ul>
+<p><img src="images/create-cloudflare-pages-project.jpg" class="img-fluid"></p>
+</section>
+<section id="c.-name-your-project" class="level3">
+<h3 class="anchored" data-anchor-id="c.-name-your-project">c.&nbsp;Name your Project</h3>
+<p>Now, choose name for your project (eg: myblog or yourname), which will be your website url.</p>
+<p>Please, try adding different prefix/suffix, if the address you want is not available.</p>
+<p>Example: I have used -np as suffix and your blog url will be <code>myblog-np.pages.dev</code></p>
+<p><img src="images/create-cloudflare-project.jpg" class="img-fluid"></p>
+</section>
+<section id="d.-direct-upload-quarto-project-folder" class="level3">
+<h3 class="anchored" data-anchor-id="d.-direct-upload-quarto-project-folder">d.&nbsp;Direct Upload Quarto Project Folder</h3>
+<p>After choosing your project name, now it’s time for upload.</p>
+<ul>
+<li><p>First, click on the select from computer</p></li>
+<li><p>Second, click on upload folder</p></li>
+<li><p>Third, navigate <code>_site</code> folder (components of your blog)</p></li>
+<li><p>Fourth, click upload</p></li>
+</ul>
+<p><img src="images/upload-quarto-project-folder.jpg" class="img-fluid"></p>
+</section>
+<section id="e.-deploy-a-quarto-blog" class="level3">
+<h3 class="anchored" data-anchor-id="e.-deploy-a-quarto-blog">e. Deploy a Quarto Blog</h3>
+<p>Once you’ve uploaded the <code>_site</code> folder, now it’s time for deploy your site online.</p>
+<p>For that, click on Deploy site.</p>
+<p><img src="images/deploy-quarto-blog-cloudflare.jpg" class="img-fluid"></p>
+</section>
+<section id="f.-deploy-a-quarto-blog" class="level3">
+<h3 class="anchored" data-anchor-id="f.-deploy-a-quarto-blog">f.&nbsp;Deploy a Quarto Blog</h3>
+<p>Once, you see Success, please continue to the project.</p>
+<p><img src="images/deploy-quarto-blog-success.jpg" class="img-fluid"></p>
+</section>
+<section id="g.-setting-and-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="g.-setting-and-dashboard">g. Setting and Dashboard</h3>
+<p>Now, your blog is live in address like <code>myblog-np.pages.dev</code> (<code>projectname.pages.dev</code>).</p>
+<ul>
+<li><p>In custom domains tab, you may add your own domain (.com, .net, .org etc)</p></li>
+<li><p>In settings tab, settings like Web analytics, renaming / deleting project are available.</p></li>
+</ul>
+<p>You can click on the <code>Domains: myblog-np.pages.dev</code> (similar link) below to view your site.</p>
+<p><img src="images/cloudflare-pages-dashboard.jpg" class="img-fluid"></p>
+</section>
+<section id="h.-view-your-live-quarto-blog" class="level3">
+<h3 class="anchored" data-anchor-id="h.-view-your-live-quarto-blog">h. View your live quarto blog</h3>
+<p>Congratulations, your blog is live on the internet.</p>
+<p><img src="images/live-quarto-blog.png" class="img-fluid"></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
