@@ -1,7 +1,7 @@
 ## Namaste :pray: , I'm Binod Jung Bogati
 
 - 💼 I’m a Statistical Programmer
-- 🔍 I’m looking to collaborate on Data Analysis Project (Statistics and Visualization)
+- 🔍 I’m looking to collaborate on Data Analysis Project (R/Shiny)
 - 💬 Ask me about Data Science using R and little bit of :snake: Python.
 - 🖊 I'd like to write about Data Science and Statistics.
 - 😄 Pronouns: Him/His 
