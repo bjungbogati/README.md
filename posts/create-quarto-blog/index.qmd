@@ -26,7 +26,7 @@ You may follow the steps provided here, if you're beginner or R user.
 First of all, please make sure you've installed R and RStudio. The latest version of RStudio supports Quarto docs and visual markdown editor.
 
 |                     |                                                                                              |
-|-------------------|-----------------------------------------------------|
+|---------------------|----------------------------------------------------------------------------------------------|
 | R for Windows       | [Download Link](https://cran.r-project.org/bin/windows/base/){rel="nofollow"}                |
 | RStudio for Windows | [Download Link](https://www.rstudio.com/products/rstudio/download/#download){rel="nofollow"} |
 
@@ -52,6 +52,7 @@ You can install quarto package with following steps:
 
 -   First, open RStudio from All programs.
 -   Now, click on Packages tab (see below)
+-   Click on `Install`
 -   Then, in text box type `quarto`
 -   Finally, click on `Install` button
 
