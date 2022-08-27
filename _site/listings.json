@@ -16,7 +16,7 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/create-quarto-blog/index.html",
+      "/posts/create-shiny-app/index.html",
       "/posts/r-google-colab/index.html",
       "/posts/data-science-overview/index.html",
       "/posts/creating-distill-blog/index.html",
